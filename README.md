@@ -1,6 +1,6 @@
 # rnnyt-rn0.50
 
-Mastering React Native example application updated for RN 0.50.
+It is the example application from the book "Mastering React Native" updated for React Native 0.50.
 
 Updates :
 - Use React 16
