@@ -9,7 +9,7 @@ import {
   WebView
 } from 'react-native';
 import SmallText from './SmallText';
-import NewsItem from './NewsItem';
+import NewsItem from './NewsItem.ios';
 import * as globalStyles from '../styles/global';
 
 export default class NewsFeed extends Component {
