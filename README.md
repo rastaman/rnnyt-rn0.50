@@ -19,3 +19,7 @@ It the app complain about a missing jsbundle at start launch it with `FORCE_BUND
 ```sh
 $ FORCE_BUNDLING=1 react-native run-ios
 ```
+
+## Tooling
+
+- [How-To: Setup Atom with Nuclide, ESLint & Flow - Jesper Lund](https://jesperln.dk/how-to-setup-atom-with-nuclide-eslint-flow/)

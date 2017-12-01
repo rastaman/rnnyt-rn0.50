@@ -13,37 +13,37 @@ import * as globalStyles from '../styles/global';
 
 export default class NewsItem extends Component {
 
-    constructor(props) {
-       super(props);
-       this.onLongPress = this.onLongPress.bind(this);
-     }
+  constructor(props) {
+    super(props);
+    this.onLongPress = this.onLongPress.bind(this);
+  }
 
-     onLongPress() {
-       ActionSheetIOS.showActionSheetWithOptions({
-         options: ['Bookmark', 'Cancel'],
-         cancelButtonIndex: 1,
-         title: this.props.title
-       }, buttonIndex => console.log('Button selected', buttonIndex));
-     }
+  onLongPress() {
+    ActionSheetIOS.showActionSheetWithOptions({
+      options: ['Bookmark', 'Cancel'],
+      cancelButtonIndex: 1,
+      title: this.props.title
+    }, buttonIndex => console.log('Button selected', buttonIndex));
+  }
 
-     render() {
-       const {
-         style,
-         imageUrl,
-         title,
-         author,
-         date,
-         location,
-         description,
-         onPress
-       } = this.props;
-       const accentColor = globalStyles.ACCENT_COLORS[
-         this.props.index % globalStyles.ACCENT_COLORS.length
-       ];
+  render() {
+    const {
+      style,
+      imageUrl,
+      title,
+      author,
+      date,
+      location,
+      description,
+      onPress
+    } = this.props;
+    const accentColor = globalStyles.ACCENT_COLORS[
+      this.props.index % globalStyles.ACCENT_COLORS.length
+    ];
 
-       return (
-         <TouchableOpacity style={style} onPress={onPress} onLongPress={this.onLongPress}>
-         <View>
+    return (
+      <TouchableOpacity style={style} onPress={onPress} onLongPress={this.onLongPress}>
+        <View>
           <Thumbnail
             url={imageUrl}
             titleText={title}
@@ -57,14 +57,13 @@ export default class NewsItem extends Component {
               location={location}
             />
             <AppText>
-            {description}
+              {description}
             </AppText>
           </View>
         </View>
       </TouchableOpacity>
-      );
-    }
-
+    );
+  }
 }
 
 NewsItem.propTypes = {

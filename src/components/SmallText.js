@@ -7,20 +7,20 @@ import {
 import AppText from './AppText';
 
 const SmallText = ({ children, style, ...rest }) => (
-     <AppText style={[styles.small, style]} {...rest}>
-       {children}
-     </AppText>
+  <AppText style={[styles.small, style]} {...rest}>
+    {children}
+  </AppText>
 );
 
 SmallText.propTypes = {
-     children: PropTypes.node,
-     style: Text.propTypes.style
+  children: PropTypes.node,
+  style: Text.propTypes.style
 };
 
 const styles = StyleSheet.create({
-     small: {
-       fontSize: 11
-     }
+  small: {
+    fontSize: 11
+  }
 });
 
 export default SmallText;
