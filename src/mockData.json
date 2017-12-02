@@ -1,0 +1,3011 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2017 The New York Times Company. All Rights Reserved.",
+  "section": "technology",
+  "last_updated": "2017-12-02T04:07:37-05:00",
+  "num_results": 38,
+  "results": [
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "How 41 People in Lithuania Took Over Your Facebook Feed",
+      "abstract": "The viral publisher Bored Panda is thriving on the social network despite the algorithm changes that doomed its competitors.",
+      "url": "https://www.nytimes.com/2017/11/30/technology/facebook-bored-panda.html",
+      "byline": "By KEVIN ROOSE",
+      "item_type": "Article",
+      "updated_date": "2017-11-30T17:38:02-05:00",
+      "created_date": "2017-11-30T05:00:29-05:00",
+      "published_date": "2017-11-30T05:00:29-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "News and News Media",
+        "Social Media",
+        "Advertising and Marketing"
+      ],
+      "org_facet": [
+        "Bored Panda",
+        "Facebook Inc"
+      ],
+      "per_facet": [
+        "Banisauskas, Tomas"
+      ],
+      "geo_facet": [
+        "Vilnius (Lithuania)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/25/business/27ROOSE-1/27ROOSE-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Tomas Banisauskas is the founder of Bored Panda, one of the biggest attractions on Facebook. The company is based in Vilnius, Lithuania.",
+          "copyright": "Andrej Vasilenko for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/25/business/27ROOSE-1/27ROOSE-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Tomas Banisauskas is the founder of Bored Panda, one of the biggest attractions on Facebook. The company is based in Vilnius, Lithuania.",
+          "copyright": "Andrej Vasilenko for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/25/business/27ROOSE-1/27ROOSE-1-articleInline.jpg",
+          "format": "Normal",
+          "height": 115,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Tomas Banisauskas is the founder of Bored Panda, one of the biggest attractions on Facebook. The company is based in Vilnius, Lithuania.",
+          "copyright": "Andrej Vasilenko for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/25/business/27ROOSE-1/27ROOSE-1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Tomas Banisauskas is the founder of Bored Panda, one of the biggest attractions on Facebook. The company is based in Vilnius, Lithuania.",
+          "copyright": "Andrej Vasilenko for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/25/business/27ROOSE-1/27ROOSE-1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Tomas Banisauskas is the founder of Bored Panda, one of the biggest attractions on Facebook. The company is based in Vilnius, Lithuania.",
+          "copyright": "Andrej Vasilenko for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BAQQSG"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Drone Maker D.J.I. May Be Sending Data to China, U.S. Officials Say",
+      "abstract": "A memo from the Immigration and Customs Enforcement bureau says the firm’s commercial products may be sending sensitive information about U.S. infrastructure back to China, raising security concerns.",
+      "url": "https://www.nytimes.com/2017/11/29/technology/dji-china-data-drones.html",
+      "byline": "By PAUL MOZUR",
+      "item_type": "Article",
+      "updated_date": "2017-11-29T17:40:51-05:00",
+      "created_date": "2017-11-29T15:37:39-05:00",
+      "published_date": "2017-11-29T15:37:39-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Drones (Pilotless Planes)",
+        "Cyberwarfare and Defense",
+        "Industrial Espionage",
+        "United States International Relations",
+        "Infrastructure (Public Works)"
+      ],
+      "org_facet": [
+        "DJI Innovations",
+        "Immigration and Customs Enforcement (US)"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30CHINADRONE3/30CHINADRONE3-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A drone made by D.J.I. in a demonstration at the company’s headquarters in Shenzhen, China, last year. The company said accusations by the Immigration and Customs Enforcement agency that it shares sensitive information on American infrastructure with the Chinese government were false.",
+          "copyright": "Qilai Shen/Bloomberg"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30CHINADRONE3/30CHINADRONE3-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A drone made by D.J.I. in a demonstration at the company’s headquarters in Shenzhen, China, last year. The company said accusations by the Immigration and Customs Enforcement agency that it shares sensitive information on American infrastructure with the Chinese government were false.",
+          "copyright": "Qilai Shen/Bloomberg"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30CHINADRONE3/merlin_130676255_0002ff12-204f-45e5-9ec6-97cb6503ffd8-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A drone made by D.J.I. in a demonstration at the company’s headquarters in Shenzhen, China, last year. The company said accusations by the Immigration and Customs Enforcement agency that it shares sensitive information on American infrastructure with the Chinese government were false.",
+          "copyright": "Qilai Shen/Bloomberg"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30CHINADRONE3/merlin_130676255_0002ff12-204f-45e5-9ec6-97cb6503ffd8-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A drone made by D.J.I. in a demonstration at the company’s headquarters in Shenzhen, China, last year. The company said accusations by the Immigration and Customs Enforcement agency that it shares sensitive information on American infrastructure with the Chinese government were false.",
+          "copyright": "Qilai Shen/Bloomberg"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30CHINADRONE3/merlin_130676255_0002ff12-204f-45e5-9ec6-97cb6503ffd8-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A drone made by D.J.I. in a demonstration at the company’s headquarters in Shenzhen, China, last year. The company said accusations by the Immigration and Customs Enforcement agency that it shares sensitive information on American infrastructure with the Chinese government were false.",
+          "copyright": "Qilai Shen/Bloomberg"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BxGFyi"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Snapchat Remakes Itself, Splitting the Social From the Media",
+      "abstract": "Instead of one blended feed of information, Snapchat users will now see a social stream on the app’s left side, and a media stream on the right.",
+      "url": "https://www.nytimes.com/2017/11/29/technology/snapchat-redesign-social-media.html",
+      "byline": "By KATIE BENNER",
+      "item_type": "Article",
+      "updated_date": "2017-11-29T17:33:01-05:00",
+      "created_date": "2017-11-29T09:29:55-05:00",
+      "published_date": "2017-11-29T09:29:55-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Social Media",
+        "News and News Media",
+        "Web-Original Programming",
+        "Mobile Applications"
+      ],
+      "org_facet": [
+        "Snap Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30SNAP-print/30SNAP4-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The redesigned version of Snapchat introduced on Wednesday effectively splits the social media app in two: social on the left; media on the right.",
+          "copyright": "Snapchat"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30SNAP-print/30SNAP4-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The redesigned version of Snapchat introduced on Wednesday effectively splits the social media app in two: social on the left; media on the right.",
+          "copyright": "Snapchat"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30SNAP-print/30SNAP4-articleInline.jpg",
+          "format": "Normal",
+          "height": 167,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The redesigned version of Snapchat introduced on Wednesday effectively splits the social media app in two: social on the left; media on the right.",
+          "copyright": "Snapchat"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30SNAP-print/30SNAP4-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The redesigned version of Snapchat introduced on Wednesday effectively splits the social media app in two: social on the left; media on the right.",
+          "copyright": "Snapchat"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30SNAP-print/30SNAP4-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 468,
+          "width": 532,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The redesigned version of Snapchat introduced on Wednesday effectively splits the social media app in two: social on the left; media on the right.",
+          "copyright": "Snapchat"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BwZcKP"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "The Best Ways to Share Your Smartphone Photos This Holiday",
+      "abstract": "Tech tools make it easy to efficiently share large numbers of photos with your family. Here are some of the best approaches.",
+      "url": "https://www.nytimes.com/2017/11/29/technology/personaltech/share-smartphone-photos.html",
+      "byline": "By BRIAN X. CHEN",
+      "item_type": "Article",
+      "updated_date": "2017-11-29T10:08:10-05:00",
+      "created_date": "2017-11-29T10:08:10-05:00",
+      "published_date": "2017-11-29T10:08:10-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Photography",
+        "Android (Operating System)",
+        "Television Sets and Media Devices",
+        "Smartphones"
+      ],
+      "org_facet": [
+        "Apple Inc",
+        "Google Inc",
+        "Apple TV"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30Techfix/merlin_130629896_35600978-2af3-4650-9e70-3645b099da88-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Minh Uong/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30Techfix/merlin_130629896_35600978-2af3-4650-9e70-3645b099da88-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Minh Uong/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30Techfix/merlin_130629896_35600978-2af3-4650-9e70-3645b099da88-articleInline.jpg",
+          "format": "Normal",
+          "height": 271,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Minh Uong/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30Techfix/merlin_130629896_35600978-2af3-4650-9e70-3645b099da88-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Minh Uong/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30Techfix/merlin_130629896_35600978-2af3-4650-9e70-3645b099da88-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2048,
+          "width": 1435,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Minh Uong/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BwB239"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "",
+      "title": "China’s Next Potential Boom Spot: The Places People Overlook",
+      "abstract": "New highways and trains and changes in farming are opening up the country’s poorer cities and rural areas, long laggards amid China’s torrid growth.",
+      "url": "https://www.nytimes.com/2017/12/01/business/china-rural-economy.html",
+      "byline": "By MICHAEL SCHUMAN",
+      "item_type": "Article",
+      "updated_date": "2017-12-01T17:47:59-05:00",
+      "created_date": "2017-12-01T17:47:59-05:00",
+      "published_date": "2017-12-01T17:47:59-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Economic Conditions and Trends",
+        "Rural Areas",
+        "E-Commerce",
+        "vis-multimedia"
+      ],
+      "org_facet": [
+        "JD.com"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/00CHINARURAL6/00CHINARURAL6-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Residents of Yancheng, China, dancing underneath a highway in October. Improved infrastructure has opened up areas of China far from the richest cities.",
+          "copyright": "Yuyang Liu for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/00CHINARURAL6/00CHINARURAL6-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Residents of Yancheng, China, dancing underneath a highway in October. Improved infrastructure has opened up areas of China far from the richest cities.",
+          "copyright": "Yuyang Liu for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/00CHINARURAL6/00CHINARURAL6-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Residents of Yancheng, China, dancing underneath a highway in October. Improved infrastructure has opened up areas of China far from the richest cities.",
+          "copyright": "Yuyang Liu for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/00CHINARURAL6/00CHINARURAL6-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Residents of Yancheng, China, dancing underneath a highway in October. Improved infrastructure has opened up areas of China far from the richest cities.",
+          "copyright": "Yuyang Liu for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/00CHINARURAL6/00CHINARURAL6-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Residents of Yancheng, China, dancing underneath a highway in October. Improved infrastructure has opened up areas of China far from the richest cities.",
+          "copyright": "Yuyang Liu for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BCFxcr"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Did James Comey Subtweet Michael Flynn? Perhaps.",
+      "abstract": "As the fired F.B.I. director has done many times before, Mr. Comey offered a quotation that seemed to be a commentary on the day’s news.",
+      "url": "https://www.nytimes.com/2017/12/01/us/politics/james-comey-twitter-flynn.html",
+      "byline": "By NIRAJ CHOKSHI",
+      "item_type": "Article",
+      "updated_date": "2017-12-01T17:28:15-05:00",
+      "created_date": "2017-12-01T14:51:20-05:00",
+      "published_date": "2017-12-01T14:51:20-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+        "Social Media",
+        "Special Prosecutors (Independent Counsel)",
+        "United States Politics and Government",
+        "Bible"
+      ],
+      "org_facet": [
+        "Federal Bureau of Investigation"
+      ],
+      "per_facet": [
+        "Comey, James B",
+        "Flynn, Michael T",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Russia"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/us/02xp-comey/02xp-comey-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "James B. Comey during a Senate Judiciary Committee hearing earlier this year.",
+          "copyright": "Gabriella Demczuk for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/us/02xp-comey/02xp-comey-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "James B. Comey during a Senate Judiciary Committee hearing earlier this year.",
+          "copyright": "Gabriella Demczuk for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/us/02xp-comey/merlin_121845002_4429964f-b813-4480-93c5-347d59c10325-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "James B. Comey during a Senate Judiciary Committee hearing earlier this year.",
+          "copyright": "Gabriella Demczuk for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/us/02xp-comey/02xp-comey-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "James B. Comey during a Senate Judiciary Committee hearing earlier this year.",
+          "copyright": "Gabriella Demczuk for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/us/02xp-comey/merlin_121845002_4429964f-b813-4480-93c5-347d59c10325-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1367,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "James B. Comey during a Senate Judiciary Committee hearing earlier this year.",
+          "copyright": "Gabriella Demczuk for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kdvBlI"
+    },
+    {
+      "section": "Books",
+      "subsection": "",
+      "title": "Should the Internet Be Regulated?",
+      "abstract": "Three books tackle this question.",
+      "url": "https://www.nytimes.com/2017/12/01/books/net-neutrality-books.html",
+      "byline": "By CONCEPCIÓN DE LEÓN",
+      "item_type": "Article",
+      "updated_date": "2017-12-01T14:07:29-05:00",
+      "created_date": "2017-12-01T13:57:16-05:00",
+      "published_date": "2017-12-01T13:57:16-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Books and Literature",
+        "Net Neutrality",
+        "The Victorian Internet: The Remarkable Story of the Telegraph and the Nineteenth Century's On-line Pioneers (Book)",
+        "Who Controls the Internet?: Illusions of a Borderless World (Book)",
+        "The Fallacy of Net Neutrality (Book)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Wu, Timothy",
+        "Standage, Tom",
+        "Goldsmith, Jack",
+        "Hazlett, Thomas W."
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/12/30/books/30newsbook-netneutrality2/30newsbook-netneutrality2-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/30/books/30newsbook-netneutrality2/30newsbook-netneutrality2-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/30/books/30newsbook-netneutrality2/30newsbook-netneutrality2-articleInline.jpg",
+          "format": "Normal",
+          "height": 291,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/30/books/30newsbook-netneutrality2/30newsbook-netneutrality2-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/30/books/30newsbook-netneutrality2/30newsbook-netneutrality2-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2048,
+          "width": 1339,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/2kgIICp"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "Stay Updated on Software Updates",
+      "abstract": "Manufacturer system updates and patches are supposed to fix problems, but sometimes they cause more.",
+      "url": "https://www.nytimes.com/2017/12/01/technology/personaltech/software-update-problems.html",
+      "byline": "By J. D. BIERSDORFER",
+      "item_type": "Article",
+      "updated_date": "2017-12-01T12:08:53-05:00",
+      "created_date": "2017-12-01T12:08:53-05:00",
+      "published_date": "2017-12-01T12:08:53-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Computers and the Internet",
+        "Mobile Applications",
+        "Smartphones",
+        "Software"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/technology/personaltech/02techtipwebART/02techtipwebART-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "If you have worried about installing manufacturer updates on your devices and computers, hold off and do some research online to see how others with similar hardware have fared with the software.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/technology/personaltech/02techtipwebART/02techtipwebART-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "If you have worried about installing manufacturer updates on your devices and computers, hold off and do some research online to see how others with similar hardware have fared with the software.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/technology/personaltech/02techtipwebART/02techtipwebART-articleInline.jpg",
+          "format": "Normal",
+          "height": 338,
+          "width": 190,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "If you have worried about installing manufacturer updates on your devices and computers, hold off and do some research online to see how others with similar hardware have fared with the software.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/technology/personaltech/02techtipwebART/02techtipwebART-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "If you have worried about installing manufacturer updates on your devices and computers, hold off and do some research online to see how others with similar hardware have fared with the software.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/technology/personaltech/02techtipwebART/02techtipwebART-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2048,
+          "width": 1152,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "If you have worried about installing manufacturer updates on your devices and computers, hold off and do some research online to see how others with similar hardware have fared with the software.",
+          "copyright": "The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BEuJLh"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Farhad and Mike’s Week in Tech: Sex Scandals and Silicon Valley",
+      "abstract": "In this week’s tech newsletter, Farhad Manjoo and Mike Isaac delve into sex scandals reaching Google and Uber’s latest legal troubles.",
+      "url": "https://www.nytimes.com/2017/12/01/technology/farhad-and-mikes-week-in-tech-sex-scandals-and-silicon-valley.html",
+      "byline": "By FARHAD MANJOO and MIKE ISAAC",
+      "item_type": "Article",
+      "updated_date": "2017-12-01T09:00:01-05:00",
+      "created_date": "2017-12-01T09:00:01-05:00",
+      "published_date": "2017-12-01T09:00:01-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [
+        "Google Inc",
+        "Snap Inc",
+        "Uber Technologies Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/business/02technewsletter/01TECHNEWS1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Google is facing questions about relationships between some of its executives and women who work for them.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/business/02technewsletter/01TECHNEWS1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Google is facing questions about relationships between some of its executives and women who work for them.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/business/02technewsletter/merlin_127292891_9e6c086e-0834-40d9-93e8-e4c63d817a70-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Google is facing questions about relationships between some of its executives and women who work for them.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/business/02technewsletter/01TECHNEWS1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Google is facing questions about relationships between some of its executives and women who work for them.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/business/02technewsletter/merlin_127292891_9e6c086e-0834-40d9-93e8-e4c63d817a70-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Google is facing questions about relationships between some of its executives and women who work for them.",
+          "copyright": "Christie Hemm Klok for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kcwH0R"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "",
+      "title": "Trump’s First Major Trade Fight With China Could Be Over Solar Panels",
+      "abstract": "United States officials will soon decide whether to broaden tariffs on solar panels in a way that could spur Beijing to retaliate against American-made goods.",
+      "url": "https://www.nytimes.com/2017/12/01/business/trump-china-trade-solar.html",
+      "byline": "By KEITH BRADSHER",
+      "item_type": "Article",
+      "updated_date": "2017-12-02T00:14:13-05:00",
+      "created_date": "2017-12-01T02:19:39-05:00",
+      "published_date": "2017-12-01T02:19:39-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Solar Energy",
+        "International Trade and World Market",
+        "United States International Relations"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/world/02trade-1/02trade-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "China’s push to become a major maker of solar panels has driven down global prices by close to 90 percent over the past decade.",
+          "copyright": "Adam Dean for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/world/02trade-1/02trade-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "China’s push to become a major maker of solar panels has driven down global prices by close to 90 percent over the past decade.",
+          "copyright": "Adam Dean for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/world/02trade-1/02trade-1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "China’s push to become a major maker of solar panels has driven down global prices by close to 90 percent over the past decade.",
+          "copyright": "Adam Dean for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/world/02trade-1/02trade-1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "China’s push to become a major maker of solar panels has driven down global prices by close to 90 percent over the past decade.",
+          "copyright": "Adam Dean for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/02/world/02trade-1/02trade-1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "China’s push to become a major maker of solar panels has driven down global prices by close to 90 percent over the past decade.",
+          "copyright": "Adam Dean for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kcRkdB"
+    },
+    {
+      "section": "Travel",
+      "subsection": "",
+      "title": "Randi Zuckerberg Says She Was Sexually Harassed on an Alaska Airlines Flight",
+      "abstract": "Ms. Zuckerberg, a former executive at Facebook, said that a passenger made lewd comments toward her and that flight attendants brushed off her complaints.",
+      "url": "https://www.nytimes.com/2017/11/30/travel/randi-zuckerberg-alaska-airlines-harassment.html",
+      "byline": "By MATTHEW HAAG",
+      "item_type": "Article",
+      "updated_date": "2017-11-30T14:26:05-05:00",
+      "created_date": "2017-11-30T14:26:05-05:00",
+      "published_date": "2017-11-30T14:26:05-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Airlines and Airplanes",
+        "Sexual Harassment"
+      ],
+      "org_facet": [
+        "Alaska Airlines"
+      ],
+      "per_facet": [
+        "Zuckerberg, Randi"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/arts/01xp-randi/01xp-randi-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Randi Zuckerberg at a tech panel in New York earlier this year. Ms. Zuckerberg said she was harassed on Wednesday aboard an Alaska Airlines flight.",
+          "copyright": "Andy Kropa/Invision, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/arts/01xp-randi/01xp-randi-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Randi Zuckerberg at a tech panel in New York earlier this year. Ms. Zuckerberg said she was harassed on Wednesday aboard an Alaska Airlines flight.",
+          "copyright": "Andy Kropa/Invision, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/arts/01xp-randi/merlin_130709606_6f860f0f-8dc5-4e43-a4d1-4f19fcd0f6cf-articleInline.jpg",
+          "format": "Normal",
+          "height": 143,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Randi Zuckerberg at a tech panel in New York earlier this year. Ms. Zuckerberg said she was harassed on Wednesday aboard an Alaska Airlines flight.",
+          "copyright": "Andy Kropa/Invision, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/arts/01xp-randi/01xp-randi-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Randi Zuckerberg at a tech panel in New York earlier this year. Ms. Zuckerberg said she was harassed on Wednesday aboard an Alaska Airlines flight.",
+          "copyright": "Andy Kropa/Invision, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/arts/01xp-randi/merlin_130709606_6f860f0f-8dc5-4e43-a4d1-4f19fcd0f6cf-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1536,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Randi Zuckerberg at a tech panel in New York earlier this year. Ms. Zuckerberg said she was harassed on Wednesday aboard an Alaska Airlines flight.",
+          "copyright": "Andy Kropa/Invision, via Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Bz0hSx"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "Energy & Environment",
+      "title": "Energy Idea for Mars Yields a Clue for Powering Data Centers",
+      "abstract": "The use of natural gas in fuel cells, producing electricity through a chemical reaction, will be given a try at a dozen locations.",
+      "url": "https://www.nytimes.com/2017/11/30/business/energy-environment/data-center-energy.html",
+      "byline": "By DIANE CARDWELL",
+      "item_type": "Article",
+      "updated_date": "2017-11-30T17:32:54-05:00",
+      "created_date": "2017-11-30T14:14:04-05:00",
+      "published_date": "2017-11-30T14:14:04-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Electric Light and Power",
+        "Data Centers",
+        "Natural Gas",
+        "Greenhouse Gas Emissions"
+      ],
+      "org_facet": [
+        "Bloom Energy",
+        "Equinix Inc",
+        "Southern Company"
+      ],
+      "per_facet": [
+        "Sridhar, K R"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/22/business/22FUELCELL1-sub/22FUELCELL1-sub-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Oliver Cruz, a technician, on the manufacturing floor at Bloom Energy, a producer of fuel cells in Sunnyvale, Calif.",
+          "copyright": "Peter Prato for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/22/business/22FUELCELL1-sub/22FUELCELL1-sub-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Oliver Cruz, a technician, on the manufacturing floor at Bloom Energy, a producer of fuel cells in Sunnyvale, Calif.",
+          "copyright": "Peter Prato for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/22/business/22FUELCELL1-sub/22FUELCELL1-sub-articleInline.jpg",
+          "format": "Normal",
+          "height": 125,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Oliver Cruz, a technician, on the manufacturing floor at Bloom Energy, a producer of fuel cells in Sunnyvale, Calif.",
+          "copyright": "Peter Prato for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/22/business/22FUELCELL1-sub/22FUELCELL1-sub-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Oliver Cruz, a technician, on the manufacturing floor at Bloom Energy, a producer of fuel cells in Sunnyvale, Calif.",
+          "copyright": "Peter Prato for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/22/business/22FUELCELL1-sub/merlin_130361993_b39f0888-072d-4460-bd86-592589989e4c-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Oliver Cruz, a technician, on the manufacturing floor at Bloom Energy, a producer of fuel cells in Sunnyvale, Calif.",
+          "copyright": "Peter Prato for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BA1bhs"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "A.I. Will Transform the Economy. But How Much, and How Soon?",
+      "abstract": "Three new reports suggest that artificial intelligence can probably do less right now than you think. But by one estimation, up to a third of American workers will have to switch jobs by 2030 largely because of it.",
+      "url": "https://www.nytimes.com/2017/11/30/technology/ai-will-transform-the-economy-but-how-much-and-how-soon.html",
+      "byline": "By STEVE LOHR",
+      "item_type": "Article",
+      "updated_date": "2017-12-01T00:26:13-05:00",
+      "created_date": "2017-11-30T14:04:46-05:00",
+      "published_date": "2017-11-30T14:04:46-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Artificial Intelligence"
+      ],
+      "org_facet": [
+        "Massachusetts Institute of Technology",
+        "McKinsey Global Institute",
+        "National Bureau of Economic Research"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/business/01AIECON1/01AIECON1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Artificial intelligence can be used for image recognition, like in this display at a recent technology conference. Researchers are scrambling to understand the potential implications of A.I.",
+          "copyright": "Saul Loeb/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/business/01AIECON1/01AIECON1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Artificial intelligence can be used for image recognition, like in this display at a recent technology conference. Researchers are scrambling to understand the potential implications of A.I.",
+          "copyright": "Saul Loeb/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/business/01AIECON1/merlin_129555845_9af63388-6b04-422c-a297-f879e0d7287d-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Artificial intelligence can be used for image recognition, like in this display at a recent technology conference. Researchers are scrambling to understand the potential implications of A.I.",
+          "copyright": "Saul Loeb/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/business/01AIECON1/merlin_129555845_9af63388-6b04-422c-a297-f879e0d7287d-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Artificial intelligence can be used for image recognition, like in this display at a recent technology conference. Researchers are scrambling to understand the potential implications of A.I.",
+          "copyright": "Saul Loeb/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/business/01AIECON1/merlin_129555845_9af63388-6b04-422c-a297-f879e0d7287d-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Artificial intelligence can be used for image recognition, like in this display at a recent technology conference. Researchers are scrambling to understand the potential implications of A.I.",
+          "copyright": "Saul Loeb/Agence France-Presse — Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2ByMfjM"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "How to Create Windows 10 Start Menu Folders",
+      "abstract": "If you find your Start menu is overloaded, you can save space by storing groups of apps in folders.",
+      "url": "https://www.nytimes.com/2017/11/30/technology/personaltech/windows-start-folders.html",
+      "byline": "By J. D. BIERSDORFER",
+      "item_type": "Article",
+      "updated_date": "2017-11-30T10:27:30-05:00",
+      "created_date": "2017-11-30T10:27:31-05:00",
+      "published_date": "2017-11-30T10:27:31-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Windows (Operating System)",
+        "Computers and the Internet"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/technology/personaltech/01techtipwebART/01techtipwebART-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "Click or tap a Start menu folder to open it and use the apps stored inside.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/technology/personaltech/01techtipwebART/01techtipwebART-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "Click or tap a Start menu folder to open it and use the apps stored inside.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/technology/personaltech/01techtipwebART/01techtipwebART-articleInline.jpg",
+          "format": "Normal",
+          "height": 153,
+          "width": 190,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "Click or tap a Start menu folder to open it and use the apps stored inside.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/technology/personaltech/01techtipwebART/01techtipwebART-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "Click or tap a Start menu folder to open it and use the apps stored inside.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/12/01/technology/personaltech/01techtipwebART/01techtipwebART-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 626,
+          "width": 740,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "Click or tap a Start menu folder to open it and use the apps stored inside.",
+          "copyright": "The New York Times"
+        }
+      ]
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Amazon Trumpets Its Cloud Lead With N.F.L. and Other Deals",
+      "abstract": "The internet retailer used an annual conference to show how machine learning will spur growth at Amazon Web Services, its most profitable business.",
+      "url": "https://www.nytimes.com/2017/11/29/technology/amazon-cloud-nfl-deals.html",
+      "byline": "By NICK WINGFIELD",
+      "item_type": "Article",
+      "updated_date": "2017-11-29T19:06:28-05:00",
+      "created_date": "2017-11-29T19:06:28-05:00",
+      "published_date": "2017-11-29T19:06:28-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Cloud Computing",
+        "Software",
+        "Artificial Intelligence",
+        "Enterprise Computing"
+      ],
+      "org_facet": [
+        "Amazon.com Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30AWS1/30AWS1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Amazon Web Services, led by Andy Jassy, has more than 44 percent of the cloud computing market, analysts estimate.",
+          "copyright": "David Paul Morris/Bloomberg, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30AWS1/30AWS1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Amazon Web Services, led by Andy Jassy, has more than 44 percent of the cloud computing market, analysts estimate.",
+          "copyright": "David Paul Morris/Bloomberg, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30AWS1/merlin_130684607_76447b1b-60f0-4a1e-9e82-4bc20088cbb4-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Amazon Web Services, led by Andy Jassy, has more than 44 percent of the cloud computing market, analysts estimate.",
+          "copyright": "David Paul Morris/Bloomberg, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30AWS1/merlin_130684607_76447b1b-60f0-4a1e-9e82-4bc20088cbb4-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Amazon Web Services, led by Andy Jassy, has more than 44 percent of the cloud computing market, analysts estimate.",
+          "copyright": "David Paul Morris/Bloomberg, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30AWS1/merlin_130684607_76447b1b-60f0-4a1e-9e82-4bc20088cbb4-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Amazon Web Services, led by Andy Jassy, has more than 44 percent of the cloud computing market, analysts estimate.",
+          "copyright": "David Paul Morris/Bloomberg, via Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2By9ZVe"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Andy Rubin, Android Creator, Steps Away From Firm Amid Misconduct Report",
+      "abstract": "Mr. Rubin is taking a leave of absence from the start-up Essential amid a report that he had an inappropriate relationship with a subordinate while he was a Google executive.",
+      "url": "https://www.nytimes.com/2017/11/29/technology/andy-rubin-android-google-misconduct.html",
+      "byline": "By DAISUKE WAKABAYASHI",
+      "item_type": "Article",
+      "updated_date": "2017-11-30T13:34:05-05:00",
+      "created_date": "2017-11-29T15:23:24-05:00",
+      "published_date": "2017-11-29T15:23:24-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Android (Operating System)",
+        "Smartphones",
+        "Women and Girls",
+        "Sexual Harassment"
+      ],
+      "org_facet": [
+        "Google Inc"
+      ],
+      "per_facet": [
+        "Rubin, Andrew E (1962- )"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30RUBIN1/merlin_130664087_f14b6840-d036-4c3f-97aa-f37905e56216-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Andy Rubin, founder of Android, is taking a leave of absence from Essential, the start-up he now runs, amid a report that he had an inappropriate relationship with a subordinate while at Google.",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30RUBIN1/merlin_130664087_f14b6840-d036-4c3f-97aa-f37905e56216-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Andy Rubin, founder of Android, is taking a leave of absence from Essential, the start-up he now runs, amid a report that he had an inappropriate relationship with a subordinate while at Google.",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30RUBIN1/merlin_130664087_f14b6840-d036-4c3f-97aa-f37905e56216-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Andy Rubin, founder of Android, is taking a leave of absence from Essential, the start-up he now runs, amid a report that he had an inappropriate relationship with a subordinate while at Google.",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30RUBIN1/merlin_130664087_f14b6840-d036-4c3f-97aa-f37905e56216-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Andy Rubin, founder of Android, is taking a leave of absence from Essential, the start-up he now runs, amid a report that he had an inappropriate relationship with a subordinate while at Google.",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30RUBIN1/merlin_130664087_f14b6840-d036-4c3f-97aa-f37905e56216-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Andy Rubin, founder of Android, is taking a leave of absence from Essential, the start-up he now runs, amid a report that he had an inappropriate relationship with a subordinate while at Google.",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/2k8SrLd"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Justices Seem Ready to Boost Protection of Digital Privacy",
+      "abstract": "The Supreme Court heard arguments on whether the police need a warrant for cellphone location data in a case that could reshape privacy protections.",
+      "url": "https://www.nytimes.com/2017/11/29/us/politics/supreme-court-digital-privacy.html",
+      "byline": "By ADAM LIPTAK",
+      "item_type": "Article",
+      "updated_date": "2017-11-30T00:56:02-05:00",
+      "created_date": "2017-11-29T12:23:46-05:00",
+      "published_date": "2017-11-29T12:23:46-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Fourth Amendment (US Constitution)",
+        "Privacy",
+        "Wireless Communications",
+        "Cellular Telephones"
+      ],
+      "org_facet": [
+        "Supreme Court (US)"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/us/politics/30dc-scotus/30dc-scotus-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Supreme Court’s decision in the privacy case will apply the Fourth Amendment, drafted in the 18th century, to a world in which people’s movements are continually recorded by devices.",
+          "copyright": "Yuri Gripas/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/us/politics/30dc-scotus/30dc-scotus-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Supreme Court’s decision in the privacy case will apply the Fourth Amendment, drafted in the 18th century, to a world in which people’s movements are continually recorded by devices.",
+          "copyright": "Yuri Gripas/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/us/politics/30dc-scotus/merlin_130596531_18226b63-e5b4-4e19-bec7-0f1289bce474-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Supreme Court’s decision in the privacy case will apply the Fourth Amendment, drafted in the 18th century, to a world in which people’s movements are continually recorded by devices.",
+          "copyright": "Yuri Gripas/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/us/politics/30dc-scotus/merlin_130596531_18226b63-e5b4-4e19-bec7-0f1289bce474-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Supreme Court’s decision in the privacy case will apply the Fourth Amendment, drafted in the 18th century, to a world in which people’s movements are continually recorded by devices.",
+          "copyright": "Yuri Gripas/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/us/politics/30dc-scotus/merlin_130596531_18226b63-e5b4-4e19-bec7-0f1289bce474-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Supreme Court’s decision in the privacy case will apply the Fourth Amendment, drafted in the 18th century, to a world in which people’s movements are continually recorded by devices.",
+          "copyright": "Yuri Gripas/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kdJYqg"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "Why Old-Fashioned Tools Remain Key for Reporting",
+      "abstract": "Emily Steel, a media reporter for The Times, uses encrypted messaging apps and plenty of new tech. But she still harbors a love for the telephone.",
+      "url": "https://www.nytimes.com/2017/11/29/technology/personaltech/old-fashioned-tech-reporting.html",
+      "byline": "By EMILY STEEL",
+      "item_type": "Article",
+      "updated_date": "2017-11-29T11:00:14-05:00",
+      "created_date": "2017-11-29T11:00:14-05:00",
+      "published_date": "2017-11-29T11:00:14-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Web-Original Programming",
+        "Weddings and Engagements"
+      ],
+      "org_facet": [
+        "Pinterest",
+        "Signal (Open Whisper Systems)"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/30TECHUSING-1/30TECHUSING-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Emily Steel, a media reporter, relies on a 19th-century technological marvel — the telephone — to build trust with sources.",
+          "copyright": "Hilary Swift for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/30TECHUSING-1/30TECHUSING-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Emily Steel, a media reporter, relies on a 19th-century technological marvel — the telephone — to build trust with sources.",
+          "copyright": "Hilary Swift for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/30TECHUSING-1/30TECHUSING-1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Emily Steel, a media reporter, relies on a 19th-century technological marvel — the telephone — to build trust with sources.",
+          "copyright": "Hilary Swift for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/30TECHUSING-1/30TECHUSING-1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Emily Steel, a media reporter, relies on a 19th-century technological marvel — the telephone — to build trust with sources.",
+          "copyright": "Hilary Swift for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/30TECHUSING-1/30TECHUSING-1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Emily Steel, a media reporter, relies on a 19th-century technological marvel — the telephone — to build trust with sources.",
+          "copyright": "Hilary Swift for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BwHszh"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "Punting iPhone Calls to Voice Mail",
+      "abstract": "When the phone rings and you can’t (or don’t want to) answer the call, you can send it directly to voice mail even if your phone is locked.",
+      "url": "https://www.nytimes.com/2017/11/29/technology/personaltech/iphone-voice-mail.html",
+      "byline": "By J. D. BIERSDORFER",
+      "item_type": "Article",
+      "updated_date": "2017-11-29T09:36:41-05:00",
+      "created_date": "2017-11-29T09:36:41-05:00",
+      "published_date": "2017-11-29T09:36:41-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Smartphones",
+        "Voice Mail",
+        "iPhone"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/technology/personaltech/30techtipwebART/30techtipwebART-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "When a call comes in, the iPhone displays the “slide to answer” control when the screen is locked, or buttons to decline or accept the call when the screen is unlocked.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/technology/personaltech/30techtipwebART/30techtipwebART-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "When a call comes in, the iPhone displays the “slide to answer” control when the screen is locked, or buttons to decline or accept the call when the screen is unlocked.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/technology/personaltech/30techtipwebART/30techtipwebART-articleInline.jpg",
+          "format": "Normal",
+          "height": 72,
+          "width": 190,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "When a call comes in, the iPhone displays the “slide to answer” control when the screen is locked, or buttons to decline or accept the call when the screen is unlocked.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/technology/personaltech/30techtipwebART/30techtipwebART-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "When a call comes in, the iPhone displays the “slide to answer” control when the screen is locked, or buttons to decline or accept the call when the screen is unlocked.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/technology/personaltech/30techtipwebART/30techtipwebART-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 771,
+          "width": 2048,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "When a call comes in, the iPhone displays the “slide to answer” control when the screen is locked, or buttons to decline or accept the call when the screen is unlocked.",
+          "copyright": "The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BzgIyi"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "",
+      "title": "G.M. Unveils Its Driverless Cars, Aiming to Lead the Pack",
+      "abstract": "Previously reluctant to show the autonomous vehicles it is developing, General Motors now wants to signal its progress in getting them to market.",
+      "url": "https://www.nytimes.com/2017/11/29/business/gm-driverless-cars.html",
+      "byline": "By BILL VLASIC",
+      "item_type": "Article",
+      "updated_date": "2017-11-29T08:00:01-05:00",
+      "created_date": "2017-11-29T08:00:01-05:00",
+      "published_date": "2017-11-29T08:00:01-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Driverless and Semiautonomous Vehicles"
+      ],
+      "org_facet": [
+        "General Motors",
+        "Cruise Automation Inc"
+      ],
+      "per_facet": [
+        "Barra, Mary T",
+        "Ammann, Daniel",
+        "Vogt, Kyle"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30CRUISE1/30CRUISE1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Dan Ammann, left, General Motors&rsquo; president, and Kyle Vogt, chief executive of Cruise Automation, showed cars in the test fleet this week in San Francisco. G.M.&rsquo;s pursuit of autonomous-driving technology led the automaker to acquire Cruise, a start-up focused on the field.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30CRUISE1/30CRUISE1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Dan Ammann, left, General Motors&rsquo; president, and Kyle Vogt, chief executive of Cruise Automation, showed cars in the test fleet this week in San Francisco. G.M.&rsquo;s pursuit of autonomous-driving technology led the automaker to acquire Cruise, a start-up focused on the field.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30CRUISE1/30CRUISE1-articleInline.jpg",
+          "format": "Normal",
+          "height": 117,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Dan Ammann, left, General Motors&rsquo; president, and Kyle Vogt, chief executive of Cruise Automation, showed cars in the test fleet this week in San Francisco. G.M.&rsquo;s pursuit of autonomous-driving technology led the automaker to acquire Cruise, a start-up focused on the field.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30CRUISE1/30CRUISE1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Dan Ammann, left, General Motors&rsquo; president, and Kyle Vogt, chief executive of Cruise Automation, showed cars in the test fleet this week in San Francisco. G.M.&rsquo;s pursuit of autonomous-driving technology led the automaker to acquire Cruise, a start-up focused on the field.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30CRUISE1/merlin_130641983_ecff8928-67c2-48c3-a405-5b09ebd96380-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1292,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Dan Ammann, left, General Motors&rsquo; president, and Kyle Vogt, chief executive of Cruise Automation, showed cars in the test fleet this week in San Francisco. G.M.&rsquo;s pursuit of autonomous-driving technology led the automaker to acquire Cruise, a start-up focused on the field.",
+          "copyright": "Jim Wilson/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BsusL3"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "The Internet Is Dying. Repealing Net Neutrality Hastens That Death.",
+      "abstract": "Over the last decade, a few giant corporations became an inescapable part of online life. Gutting net neutrality would cement their power.",
+      "url": "https://www.nytimes.com/2017/11/29/technology/internet-dying-repeal-net-neutrality.html",
+      "byline": "By FARHAD MANJOO",
+      "item_type": "Article",
+      "updated_date": "2017-11-29T05:00:03-05:00",
+      "created_date": "2017-11-29T05:00:03-05:00",
+      "published_date": "2017-11-29T05:00:03-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Computers and the Internet",
+        "Net Neutrality",
+        "Telephones and Telecommunications",
+        "Cable Television",
+        "Innovation",
+        "Start-ups"
+      ],
+      "org_facet": [
+        "Federal Communications Commission"
+      ],
+      "per_facet": [
+        "Pai, Ajit"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30STATE/30STATE-thumbStandard.gif",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Doug Chayka, Photo via Library of Congress"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30STATE/30STATE-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Doug Chayka, Photo via Library of Congress"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30STATE/30STATE-articleInline.jpg",
+          "format": "Normal",
+          "height": 114,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Doug Chayka, Photo via Library of Congress"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30STATE/30STATE-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Doug Chayka, Photo via Library of Congress"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/30/business/30STATE/30STATE-superJumbo.gif",
+          "format": "superJumbo",
+          "height": 614,
+          "width": 1024,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Doug Chayka, Photo via Library of Congress"
+        }
+      ],
+      "short_url": "https://nyti.ms/2BwfZ0V"
+    },
+    {
+      "section": "Real Estate",
+      "subsection": "Commercial Real Estate",
+      "title": "Microsoft to Expand Campus, as Amazon Looks Elsewhere",
+      "abstract": "The software giant plans to invest billions of dollars in renovating its campus in Redmond, Wash., to create a more urban atmosphere.",
+      "url": "https://www.nytimes.com/2017/11/29/realestate/commercial/microsoft-headquarters-redmond-washington.html",
+      "byline": "By NICK WINGFIELD",
+      "item_type": "Article",
+      "updated_date": "2017-11-29T01:00:30-05:00",
+      "created_date": "2017-11-29T01:00:30-05:00",
+      "published_date": "2017-11-29T01:00:30-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Restoration and Renovation",
+        "Real Estate (Commercial)"
+      ],
+      "org_facet": [
+        "Microsoft Corp",
+        "Amazon.com Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Redmond (Wash)",
+        "Seattle (Wash)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29MICROSOFTSQFT1/29MICROSOFTSQFT1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A rendering of the Microsoft&rsquo;s campus after an extensive overhaul. The company will take down 12 old buildings, replacing them with 18 taller ones. It will also have new walking and cycling trails.",
+          "copyright": "Microsoft"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29MICROSOFTSQFT1/29MICROSOFTSQFT1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A rendering of the Microsoft&rsquo;s campus after an extensive overhaul. The company will take down 12 old buildings, replacing them with 18 taller ones. It will also have new walking and cycling trails.",
+          "copyright": "Microsoft"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29MICROSOFTSQFT1/merlin_130632881_069fbdee-1d26-4878-b13f-019caaaeadbe-articleInline.jpg",
+          "format": "Normal",
+          "height": 95,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A rendering of the Microsoft&rsquo;s campus after an extensive overhaul. The company will take down 12 old buildings, replacing them with 18 taller ones. It will also have new walking and cycling trails.",
+          "copyright": "Microsoft"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29MICROSOFTSQFT1/29MICROSOFTSQFT1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A rendering of the Microsoft&rsquo;s campus after an extensive overhaul. The company will take down 12 old buildings, replacing them with 18 taller ones. It will also have new walking and cycling trails.",
+          "copyright": "Microsoft"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29MICROSOFTSQFT1/merlin_130632881_069fbdee-1d26-4878-b13f-019caaaeadbe-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1024,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A rendering of the Microsoft&rsquo;s campus after an extensive overhaul. The company will take down 12 old buildings, replacing them with 18 taller ones. It will also have new walking and cycling trails.",
+          "copyright": "Microsoft"
+        }
+      ],
+      "short_url": "https://nyti.ms/2k9Rtyf"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Net Neutrality Hits a Nerve, Eliciting Intense Reactions",
+      "abstract": "The F.C.C. plan to scrap existing rules for internet delivery has set off heated debate, personal attacks and echoes of the 2016 election.",
+      "url": "https://www.nytimes.com/2017/11/28/technology/net-neutrality-reaction.html",
+      "byline": "By CECILIA KANG",
+      "item_type": "Article",
+      "updated_date": "2017-11-28T21:32:32-05:00",
+      "created_date": "2017-11-28T18:15:34-05:00",
+      "published_date": "2017-11-28T18:15:34-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Net Neutrality",
+        "Computers and the Internet",
+        "Regulation and Deregulation of Industry",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Federal Communications Commission"
+      ],
+      "per_facet": [
+        "Pai, Ajit"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29CIRCUS1/29CIRCUS1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ajit Pai, the chairman of the Federal Communications Commission, which has proposed repealing landmark regulations meant to ensure an open internet.",
+          "copyright": "Andrew Harrer/Bloomberg"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29CIRCUS1/29CIRCUS1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ajit Pai, the chairman of the Federal Communications Commission, which has proposed repealing landmark regulations meant to ensure an open internet.",
+          "copyright": "Andrew Harrer/Bloomberg"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29CIRCUS1/29CIRCUS1-articleInline.jpg",
+          "format": "Normal",
+          "height": 100,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ajit Pai, the chairman of the Federal Communications Commission, which has proposed repealing landmark regulations meant to ensure an open internet.",
+          "copyright": "Andrew Harrer/Bloomberg"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29CIRCUS1/29CIRCUS1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ajit Pai, the chairman of the Federal Communications Commission, which has proposed repealing landmark regulations meant to ensure an open internet.",
+          "copyright": "Andrew Harrer/Bloomberg"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29CIRCUS1/29CIRCUS1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1076,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ajit Pai, the chairman of the Federal Communications Commission, which has proposed repealing landmark regulations meant to ensure an open internet.",
+          "copyright": "Andrew Harrer/Bloomberg"
+        }
+      ],
+      "short_url": "https://nyti.ms/2k9Be4f"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Rebuking Uber Lawyers, Judge Delays Trade Secrets Trial",
+      "abstract": "A letter from the lawyer of a former Uber employee detailed secretive efforts inside the company to monitor competitors and hide information.",
+      "url": "https://www.nytimes.com/2017/11/28/technology/uber-waymo-lawsuit.html",
+      "byline": "By CADE METZ",
+      "item_type": "Article",
+      "updated_date": "2017-11-28T19:47:26-05:00",
+      "created_date": "2017-11-28T14:15:32-05:00",
+      "published_date": "2017-11-28T14:15:32-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Suits and Litigation (Civil)",
+        "Driverless and Semiautonomous Vehicles"
+      ],
+      "org_facet": [
+        "Uber Technologies Inc",
+        "Waymo",
+        "Alphabet Inc",
+        "Google Inc"
+      ],
+      "per_facet": [
+        "Levandowski, Anthony",
+        "Alsup, William Haskell"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29WAYMOUBER1/29WAYMOUBER1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Waymo driverless car. The company is accusing Uber of using technology stolen by a former Waymo employee.",
+          "copyright": "Caitlin O'Hara for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29WAYMOUBER1/29WAYMOUBER1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Waymo driverless car. The company is accusing Uber of using technology stolen by a former Waymo employee.",
+          "copyright": "Caitlin O'Hara for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29WAYMOUBER1/29WAYMOUBER1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Waymo driverless car. The company is accusing Uber of using technology stolen by a former Waymo employee.",
+          "copyright": "Caitlin O'Hara for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29WAYMOUBER1/29WAYMOUBER1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Waymo driverless car. The company is accusing Uber of using technology stolen by a former Waymo employee.",
+          "copyright": "Caitlin O'Hara for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/business/29WAYMOUBER1/29WAYMOUBER1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Waymo driverless car. The company is accusing Uber of using technology stolen by a former Waymo employee.",
+          "copyright": "Caitlin O'Hara for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kbKpRW"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "Managing Multiple Identities on Twitter",
+      "abstract": "You don’t have to log in and out of the Twitter mobile app each time you want to post from another account you own.",
+      "url": "https://www.nytimes.com/2017/11/28/technology/personaltech/managing-multiple-twitter.html",
+      "byline": "By J. D. BIERSDORFER",
+      "item_type": "Article",
+      "updated_date": "2017-11-28T13:04:31-05:00",
+      "created_date": "2017-11-28T13:04:31-05:00",
+      "published_date": "2017-11-28T13:04:31-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Social Media",
+        "Smartphones",
+        "Mobile Applications"
+      ],
+      "org_facet": [
+        "Twitter"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/technology/personaltech/29techtipwebART/29techtipwebART-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "On the Twitter app's profile screeen, tap to switch to another account. As circled, you can even add another one to manage through the app.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/technology/personaltech/29techtipwebART/29techtipwebART-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "On the Twitter app's profile screeen, tap to switch to another account. As circled, you can even add another one to manage through the app.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/technology/personaltech/29techtipwebART/29techtipwebART-articleInline.jpg",
+          "format": "Normal",
+          "height": 304,
+          "width": 190,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "On the Twitter app's profile screeen, tap to switch to another account. As circled, you can even add another one to manage through the app.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/technology/personaltech/29techtipwebART/29techtipwebART-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "On the Twitter app's profile screeen, tap to switch to another account. As circled, you can even add another one to manage through the app.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/29/technology/personaltech/29techtipwebART/29techtipwebART-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1920,
+          "width": 1200,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "On the Twitter app's profile screeen, tap to switch to another account. As circled, you can even add another one to manage through the app.",
+          "copyright": "The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2idETgU"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "A New Way for Machines to See, Taking Shape in Toronto",
+      "abstract": "One of the pioneers of so-called computer vision is working on ways to deal with issues his old ideas could not solve.",
+      "url": "https://www.nytimes.com/2017/11/28/technology/artificial-intelligence-research-toronto.html",
+      "byline": "By CADE METZ",
+      "item_type": "Article",
+      "updated_date": "2017-11-28T05:00:26-05:00",
+      "created_date": "2017-11-28T05:00:26-05:00",
+      "published_date": "2017-11-28T05:00:26-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Research",
+        "Colleges and Universities",
+        "Foreign Students (in US)",
+        "Computer Vision"
+      ],
+      "org_facet": [
+        "Google Inc",
+        "University of Toronto"
+      ],
+      "per_facet": [
+        "Hinton, Geoffrey E"
+      ],
+      "geo_facet": [
+        "Toronto (Ontario)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28TORONTOAI/28TORONTOAI-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Geoffrey Hinton and Sara Sabour, holding a two-piece pyramid puzzle, are researching a system that could let computers see more like humans at a Google laboratory in Toronto.",
+          "copyright": "Christopher Wahl for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28TORONTOAI/28TORONTOAI-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Geoffrey Hinton and Sara Sabour, holding a two-piece pyramid puzzle, are researching a system that could let computers see more like humans at a Google laboratory in Toronto.",
+          "copyright": "Christopher Wahl for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28TORONTOAI/28TORONTOAI-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Geoffrey Hinton and Sara Sabour, holding a two-piece pyramid puzzle, are researching a system that could let computers see more like humans at a Google laboratory in Toronto.",
+          "copyright": "Christopher Wahl for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28TORONTOAI/28TORONTOAI-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Geoffrey Hinton and Sara Sabour, holding a two-piece pyramid puzzle, are researching a system that could let computers see more like humans at a Google laboratory in Toronto.",
+          "copyright": "Christopher Wahl for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28TORONTOAI/28TORONTOAI-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Geoffrey Hinton and Sara Sabour, holding a two-piece pyramid puzzle, are researching a system that could let computers see more like humans at a Google laboratory in Toronto.",
+          "copyright": "Christopher Wahl for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2ibYkXB"
+    },
+    {
+      "section": "Style",
+      "subsection": "",
+      "title": "Finally Putting Some Fun in Erectile Dysfunction",
+      "abstract": "Shove over, silver foxes! Cloud pharmacies will save millennial men from shame, sending trendy boxes of Viagra and hair-loss cures direct to home.",
+      "url": "https://www.nytimes.com/2017/11/28/style/erectile-dysfunction-pills-over-the-internet.html",
+      "byline": "By MATTHEW SCHNEIER",
+      "item_type": "Article",
+      "updated_date": "2017-11-29T12:42:55-05:00",
+      "created_date": "2017-11-28T05:00:26-05:00",
+      "published_date": "2017-11-28T05:00:26-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Sex",
+        "Computers and the Internet",
+        "Viagra (Drug)",
+        "Social Media",
+        "Drugs (Pharmaceuticals)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/26/fashion/24EDAPPS1/24EDAPPS1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A marketing campaign photo by Hims.",
+          "copyright": "Brayden Olson"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/26/fashion/24EDAPPS1/24EDAPPS1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A marketing campaign photo by Hims.",
+          "copyright": "Brayden Olson"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/26/fashion/24EDAPPS1/24EDAPPS1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A marketing campaign photo by Hims.",
+          "copyright": "Brayden Olson"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/26/fashion/24EDAPPS1/24EDAPPS1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A marketing campaign photo by Hims.",
+          "copyright": "Brayden Olson"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/26/fashion/24EDAPPS1/24EDAPPS1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A marketing campaign photo by Hims.",
+          "copyright": "Brayden Olson"
+        }
+      ],
+      "short_url": "https://nyti.ms/2k2HYRk"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Waymo Seeks Delay in Court Fight With Uber Over Trade Secrets",
+      "abstract": "Jury selection was expected to begin on Wednesday, but Waymo has asked for a delay after a letter from a former Uber employee surfaced.",
+      "url": "https://www.nytimes.com/2017/11/27/technology/waymo-seeks-delay-in-court-fight-with-uber-over-trade-secrets.html",
+      "byline": "By MIKE ISAAC",
+      "item_type": "Article",
+      "updated_date": "2017-11-28T00:40:16-05:00",
+      "created_date": "2017-11-27T22:39:34-05:00",
+      "published_date": "2017-11-27T22:39:34-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Suits and Litigation (Civil)",
+        "Driverless and Semiautonomous Vehicles"
+      ],
+      "org_facet": [
+        "Google Inc",
+        "Alphabet Inc",
+        "Uber Technologies Inc",
+        "Waymo"
+      ],
+      "per_facet": [
+        "Alsup, William Haskell",
+        "Levandowski, Anthony"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28WAYMOUBER/28WAYMOUBER-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waymo claims that Anthony Levandowski, a former Google self-driving vehicle engineer, conspired with Uber to steal top trade secrets.",
+          "copyright": "Eric Risberg/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28WAYMOUBER/28WAYMOUBER-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waymo claims that Anthony Levandowski, a former Google self-driving vehicle engineer, conspired with Uber to steal top trade secrets.",
+          "copyright": "Eric Risberg/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28WAYMOUBER/28WAYMOUBER-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waymo claims that Anthony Levandowski, a former Google self-driving vehicle engineer, conspired with Uber to steal top trade secrets.",
+          "copyright": "Eric Risberg/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28WAYMOUBER/28WAYMOUBER-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waymo claims that Anthony Levandowski, a former Google self-driving vehicle engineer, conspired with Uber to steal top trade secrets.",
+          "copyright": "Eric Risberg/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28WAYMOUBER/28WAYMOUBER-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waymo claims that Anthony Levandowski, a former Google self-driving vehicle engineer, conspired with Uber to steal top trade secrets.",
+          "copyright": "Eric Risberg/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2icaoIl"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "SoftBank Is Said to Offer to Buy Uber Shares at a Steep Discount",
+      "abstract": "The Japanese conglomerate began a tender offer at a valuation of $48 billion, far below the ride-hailing company’s last valuation of nearly $70 billion.",
+      "url": "https://www.nytimes.com/2017/11/27/technology/softbank-uber-shares.html",
+      "byline": "By MIKE ISAAC and KATIE BENNER",
+      "item_type": "Article",
+      "updated_date": "2017-11-27T21:28:41-05:00",
+      "created_date": "2017-11-27T21:28:41-05:00",
+      "published_date": "2017-11-27T21:28:41-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Car Services and Livery Cabs",
+        "Mergers, Acquisitions and Divestitures",
+        "Stocks and Bonds",
+        "Initial Public Offerings",
+        "Computer Security",
+        "Cyberattacks and Hackers"
+      ],
+      "org_facet": [
+        "SOFTBANK Corporation",
+        "Uber Technologies Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28uber1_xp/28uber1_xp-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Uber plans to go public by 2019, and investors are interested in whether it can maintain a high valuation before an initial public offering.",
+          "copyright": "Eduardo Munoz/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28uber1_xp/28uber1_xp-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Uber plans to go public by 2019, and investors are interested in whether it can maintain a high valuation before an initial public offering.",
+          "copyright": "Eduardo Munoz/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28uber1_xp/28uber1_xp-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Uber plans to go public by 2019, and investors are interested in whether it can maintain a high valuation before an initial public offering.",
+          "copyright": "Eduardo Munoz/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28uber1_xp/28uber1_xp-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Uber plans to go public by 2019, and investors are interested in whether it can maintain a high valuation before an initial public offering.",
+          "copyright": "Eduardo Munoz/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28uber1_xp/28uber1_xp-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Uber plans to go public by 2019, and investors are interested in whether it can maintain a high valuation before an initial public offering.",
+          "copyright": "Eduardo Munoz/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2ibLdFF"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "As Bitcoin Scrapes $10,000, an Investment Boom Like No Other",
+      "abstract": "The virtual currency’s price reached a new threshold, leaving critics and enthusiasts alike stunned by its soaring value.",
+      "url": "https://www.nytimes.com/2017/11/27/technology/bitcoin-price-10000.html",
+      "byline": "By NATHANIEL POPPER",
+      "item_type": "Article",
+      "updated_date": "2017-11-27T18:47:18-05:00",
+      "created_date": "2017-11-27T17:17:02-05:00",
+      "published_date": "2017-11-27T17:17:02-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Bitcoin (Currency)",
+        "Prices (Fares, Fees and Rates)",
+        "Virtual Currency"
+      ],
+      "org_facet": [
+        "MtGox Co Ltd"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27bitcoin1/27bitcoin1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Bitcoin center in Paris. The virtual currency has doubled in price in less than two months.",
+          "copyright": "Christophe Morin/Bloomberg, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27bitcoin1/27bitcoin1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Bitcoin center in Paris. The virtual currency has doubled in price in less than two months.",
+          "copyright": "Christophe Morin/Bloomberg, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27bitcoin1/27bitcoin1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Bitcoin center in Paris. The virtual currency has doubled in price in less than two months.",
+          "copyright": "Christophe Morin/Bloomberg, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27bitcoin1/27bitcoin1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Bitcoin center in Paris. The virtual currency has doubled in price in less than two months.",
+          "copyright": "Christophe Morin/Bloomberg, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27bitcoin1/27bitcoin1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A Bitcoin center in Paris. The virtual currency has doubled in price in less than two months.",
+          "copyright": "Christophe Morin/Bloomberg, via Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2ibpvl8"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "",
+      "title": "Supreme Court Weighs Streamlined Patent Challenges",
+      "abstract": "The justices seemed divided on the constitutionality of a procedure that makes it easier to seek to invalidate a patent without going to court.",
+      "url": "https://www.nytimes.com/2017/11/27/business/supreme-court-patent.html",
+      "byline": "By ADAM LIPTAK",
+      "item_type": "Article",
+      "updated_date": "2017-11-27T15:04:00-05:00",
+      "created_date": "2017-11-27T14:59:32-05:00",
+      "published_date": "2017-11-27T14:59:32-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Inventions and Patents"
+      ],
+      "org_facet": [
+        "Supreme Court (US)",
+        "Patent and Trademark Office (US)",
+        "Oil States Energy Services",
+        "Greene's Energy Group"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28DC-BIZCOURT1/28SDC-BIZCOURT1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Supreme Court heard a case on Monday challenging an administrative tribunal, created in 2011, that rules on patent disputes.",
+          "copyright": "Yuri Gripas/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28DC-BIZCOURT1/28SDC-BIZCOURT1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Supreme Court heard a case on Monday challenging an administrative tribunal, created in 2011, that rules on patent disputes.",
+          "copyright": "Yuri Gripas/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28DC-BIZCOURT1/28SDC-BIZCOURT1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Supreme Court heard a case on Monday challenging an administrative tribunal, created in 2011, that rules on patent disputes.",
+          "copyright": "Yuri Gripas/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28DC-BIZCOURT1/28SDC-BIZCOURT1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Supreme Court heard a case on Monday challenging an administrative tribunal, created in 2011, that rules on patent disputes.",
+          "copyright": "Yuri Gripas/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/business/28DC-BIZCOURT1/28SDC-BIZCOURT1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Supreme Court heard a case on Monday challenging an administrative tribunal, created in 2011, that rules on patent disputes.",
+          "copyright": "Yuri Gripas/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2i9vgQa"
+    },
+    {
+      "section": "Technology",
+      "subsection": "Personal Tech",
+      "title": "Making the Leap to D.S.L.R.",
+      "abstract": "If using your phone’s camera has sparked a serious interest in photography, upgrading to a more versatile camera can have creative rewards.",
+      "url": "https://www.nytimes.com/2017/11/27/technology/personaltech/making-the-leap-to-dslr.html",
+      "byline": "By J. D. BIERSDORFER",
+      "item_type": "Article",
+      "updated_date": "2017-11-27T18:11:33-05:00",
+      "created_date": "2017-11-27T09:52:12-05:00",
+      "published_date": "2017-11-27T09:52:12-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Photography",
+        "Cameras",
+        "Smartphones"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/technology/personaltech/28techtipwebART/28techtipwebART-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "Photographs can be transferred wirelessly to an Android or iOS phone with Nikon’s SnapBridge app.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/technology/personaltech/28techtipwebART/28techtipwebART-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "Photographs can be transferred wirelessly to an Android or iOS phone with Nikon’s SnapBridge app.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/technology/personaltech/28techtipwebART/28techtipwebART-articleInline.jpg",
+          "format": "Normal",
+          "height": 162,
+          "width": 190,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "Photographs can be transferred wirelessly to an Android or iOS phone with Nikon’s SnapBridge app.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/technology/personaltech/28techtipwebART/28techtipwebART-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "Photographs can be transferred wirelessly to an Android or iOS phone with Nikon’s SnapBridge app.",
+          "copyright": "The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/technology/personaltech/28techtipwebART/28techtipwebART-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1745,
+          "width": 2048,
+          "type": "image",
+          "subtype": "graphic",
+          "caption": "Photographs can be transferred wirelessly to an Android or iOS phone with Nikon’s SnapBridge app.",
+          "copyright": "The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2i9cc4S"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Twitter Says Blocking a New York Times Account Was ‘an Error’",
+      "abstract": "The Times’s international account was locked after a tweet on the Canadian prime minister. The account was down for nearly a day.",
+      "url": "https://www.nytimes.com/2017/11/26/technology/twitter-says-blocking-a-new-york-times-account-was-an-error.html",
+      "byline": "By NELLIE BOWLES",
+      "item_type": "Article",
+      "updated_date": "2017-11-27T10:50:51-05:00",
+      "created_date": "2017-11-26T17:32:57-05:00",
+      "published_date": "2017-11-26T17:32:57-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Social Media",
+        "News and News Media"
+      ],
+      "org_facet": [
+        "New York Times",
+        "Twitter"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27twitter/27twitter-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27twitter/27twitter-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27twitter/27twitter-articleInline.jpg",
+          "format": "Normal",
+          "height": 202,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27twitter/27twitter-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27twitter/27twitter-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1204,
+          "width": 1132,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/2k19y1B"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "",
+      "title": "Initial Coin Offerings Horrify a Former S.E.C. Regulator",
+      "abstract": "Joseph Grundfest, now a law professor, called funding efforts using virtual currency the most “notorious violation of federal securities laws since the Code of Hammurabi.”",
+      "url": "https://www.nytimes.com/2017/11/26/business/initial-coin-offering-critic.html",
+      "byline": "By NATHANIEL POPPER",
+      "item_type": "Article",
+      "updated_date": "2017-11-26T15:03:31-05:00",
+      "created_date": "2017-11-26T15:03:31-05:00",
+      "published_date": "2017-11-26T15:03:31-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Start-ups",
+        "Virtual Currency",
+        "Securities and Commodities Violations",
+        "Bitcoin (Currency)"
+      ],
+      "org_facet": [
+        "Securities and Exchange Commission"
+      ],
+      "per_facet": [
+        "Grundfest, Joseph A"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27icocritic-web1/27icocritic-web1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The former S.E.C. commissioner Joseph Grundfest in his office at Stanford University. Mr. Grundfest said initial coin offerings represent a “pervasive, open and notorious violation” of federal securities law.",
+          "copyright": "Cayce Clifford for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27icocritic-web1/27icocritic-web1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The former S.E.C. commissioner Joseph Grundfest in his office at Stanford University. Mr. Grundfest said initial coin offerings represent a “pervasive, open and notorious violation” of federal securities law.",
+          "copyright": "Cayce Clifford for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27icocritic-web1/27icocritic-web1-articleInline.jpg",
+          "format": "Normal",
+          "height": 238,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The former S.E.C. commissioner Joseph Grundfest in his office at Stanford University. Mr. Grundfest said initial coin offerings represent a “pervasive, open and notorious violation” of federal securities law.",
+          "copyright": "Cayce Clifford for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27icocritic-web1/27icocritic-web1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The former S.E.C. commissioner Joseph Grundfest in his office at Stanford University. Mr. Grundfest said initial coin offerings represent a “pervasive, open and notorious violation” of federal securities law.",
+          "copyright": "Cayce Clifford for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27icocritic-web1/27icocritic-web1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2048,
+          "width": 1636,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The former S.E.C. commissioner Joseph Grundfest in his office at Stanford University. Mr. Grundfest said initial coin offerings represent a “pervasive, open and notorious violation” of federal securities law.",
+          "copyright": "Cayce Clifford for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2i8oXg0"
+    },
+    {
+      "section": "Technology",
+      "subsection": "",
+      "title": "Amazon, in Hunt for Lower Prices, Recruits Indian Merchants",
+      "abstract": "Thousands of Indian sellers have shipped bedding, jewelry, kitchenware and clothing to Amazon warehouses to serve bargain-hunting Americans.",
+      "url": "https://www.nytimes.com/2017/11/26/technology/amazon-india-merchants.html",
+      "byline": "By VINDU GOEL",
+      "item_type": "Article",
+      "updated_date": "2017-11-27T00:32:34-05:00",
+      "created_date": "2017-11-26T14:27:48-05:00",
+      "published_date": "2017-11-26T14:27:48-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "E-Commerce",
+        "Discount Selling"
+      ],
+      "org_facet": [
+        "Amazon.com Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "India"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/26/business/27AMAZONINDIA-promo/27AMAZONINDIA-promo-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/26/business/27AMAZONINDIA-promo/27AMAZONINDIA-promo-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/26/business/27AMAZONINDIA-promo/27AMAZONINDIA-promo-articleInline.jpg",
+          "format": "Normal",
+          "height": 139,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/26/business/27AMAZONINDIA-promo/27AMAZONINDIA-promo-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/26/business/27AMAZONINDIA-promo/27AMAZONINDIA-promo-superJumbo-v2.gif",
+          "format": "superJumbo",
+          "height": 427,
+          "width": 650,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/2k2JeUD"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "Media",
+      "title": "Brands Heed Social Media. They’re Advised Not to Forget Word of Mouth.",
+      "abstract": "While online comments can be a valuable tool for gauging public sentiment, a study found that consumers may send different messages when talking with family and friends.",
+      "url": "https://www.nytimes.com/2017/11/26/business/media/advertising-social-media.html",
+      "byline": "By JANET MORRISSEY",
+      "item_type": "Article",
+      "updated_date": "2017-11-26T13:48:18-05:00",
+      "created_date": "2017-11-26T13:48:18-05:00",
+      "published_date": "2017-11-26T13:48:18-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Social Media",
+        "Consumer Behavior",
+        "Advertising and Marketing"
+      ],
+      "org_facet": [
+        "Nordstrom Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27ADCO1/27ADCO1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nordstrom’s flagship store in downtown Seattle. President Trump’s tweet earlier this year critical of Nordstrom did not end up hurting the retailer’s sales.",
+          "copyright": "Ted S. Warren/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27ADCO1/27ADCO1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nordstrom’s flagship store in downtown Seattle. President Trump’s tweet earlier this year critical of Nordstrom did not end up hurting the retailer’s sales.",
+          "copyright": "Ted S. Warren/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27ADCO1/merlin_128854913_e3b850a1-2b98-4653-8092-e145b430640a-articleInline.jpg",
+          "format": "Normal",
+          "height": 138,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nordstrom’s flagship store in downtown Seattle. President Trump’s tweet earlier this year critical of Nordstrom did not end up hurting the retailer’s sales.",
+          "copyright": "Ted S. Warren/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27ADCO1/27ADCO1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nordstrom’s flagship store in downtown Seattle. President Trump’s tweet earlier this year critical of Nordstrom did not end up hurting the retailer’s sales.",
+          "copyright": "Ted S. Warren/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/27/business/27ADCO1/merlin_128854913_e3b850a1-2b98-4653-8092-e145b430640a-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1487,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nordstrom’s flagship store in downtown Seattle. President Trump’s tweet earlier this year critical of Nordstrom did not end up hurting the retailer’s sales.",
+          "copyright": "Ted S. Warren/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2i8fGVe"
+    },
+    {
+      "section": "Science",
+      "subsection": "",
+      "title": "If No One Owns the Moon, Can Anyone Make Money Up There?",
+      "abstract": "Ambiguities in the 50-year-old Outer Space Treaty may be getting in the way of entrepreneurs seeking opportunities elsewhere in our solar system.",
+      "url": "https://www.nytimes.com/2017/11/26/science/moon-express-outer-space-treaty.html",
+      "byline": "By KENNETH CHANG",
+      "item_type": "Article",
+      "updated_date": "2017-12-01T09:58:32-05:00",
+      "created_date": "2017-11-26T04:00:30-05:00",
+      "published_date": "2017-11-26T04:00:30-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Moon",
+        "Space and Astronomy",
+        "Private Spaceflight",
+        "Rocket Science and Propulsion",
+        "United States Politics and Government",
+        "Law and Legislation",
+        "International Relations"
+      ],
+      "org_facet": [
+        "Moon Express Inc",
+        "National Aeronautics and Space Administration",
+        "Planetary Resources"
+      ],
+      "per_facet": [
+        "Richards, Robert D"
+      ],
+      "geo_facet": [
+        "Luxembourg",
+        "Cape Canaveral (Fla)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/science/28SCI-MOON/28SCI-MOON-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The moon has been overlooked since NASA's Apollo missions. Private companies are now looking to set up shop.",
+          "copyright": "NASA"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/science/28SCI-MOON/28SCI-MOON-articleInline.jpg",
+          "format": "Normal",
+          "height": 129,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The moon has been overlooked since NASA's Apollo missions. Private companies are now looking to set up shop.",
+          "copyright": "NASA"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/science/28SCI-MOON/28SCI-MOON-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The moon has been overlooked since NASA's Apollo missions. Private companies are now looking to set up shop.",
+          "copyright": "NASA"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/28/science/28SCI-MOON/28SCI-MOON-superJumbo-v3.jpg",
+          "format": "superJumbo",
+          "height": 717,
+          "width": 1041,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The moon has been overlooked since NASA's Apollo missions. Private companies are now looking to set up shop.",
+          "copyright": "NASA"
+        }
+      ],
+      "short_url": "https://nyti.ms/2i676Gy"
+    },
+    {
+      "section": "Science",
+      "subsection": "",
+      "title": "Cities That Never Sleep Are Shaped by Sunrise and Sunset",
+      "abstract": "A study using cellphone call records of more than a million people found that city dwellers continue to be affected by Earth’s natural light-dark cycle.",
+      "url": "https://www.nytimes.com/2017/11/25/science/sunrise-sunset-cities.html",
+      "byline": "By VERONIQUE GREENWOOD",
+      "item_type": "Article",
+      "updated_date": "2017-11-27T09:19:01-05:00",
+      "created_date": "2017-11-25T15:28:27-05:00",
+      "published_date": "2017-11-25T15:28:27-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Sunlight",
+        "Urban Areas",
+        "Melatonin (Hormone)",
+        "Cellular Telephones"
+      ],
+      "org_facet": [
+        "PLOS Computational Biology (Journal)",
+        "University of Helsinki"
+      ],
+      "per_facet": [
+        "Monsivais, Daniel"
+      ],
+      "geo_facet": [
+        "Europe"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/11/23/science/23TB-SUNLIGHT/23TB-SUNLIGHT-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Promenade des Anglais at sunset in Nice, France. Even in artificially-lit urban areas, people are active longer in the summer and less so in winter, a study of city-dwellers in southern Europe found.",
+          "copyright": "Eric Gaillard/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/23/science/23TB-SUNLIGHT/23TB-SUNLIGHT-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Promenade des Anglais at sunset in Nice, France. Even in artificially-lit urban areas, people are active longer in the summer and less so in winter, a study of city-dwellers in southern Europe found.",
+          "copyright": "Eric Gaillard/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/23/science/23TB-SUNLIGHT/23TB-SUNLIGHT-articleInline.jpg",
+          "format": "Normal",
+          "height": 119,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Promenade des Anglais at sunset in Nice, France. Even in artificially-lit urban areas, people are active longer in the summer and less so in winter, a study of city-dwellers in southern Europe found.",
+          "copyright": "Eric Gaillard/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/23/science/23TB-SUNLIGHT/23TB-SUNLIGHT-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Promenade des Anglais at sunset in Nice, France. Even in artificially-lit urban areas, people are active longer in the summer and less so in winter, a study of city-dwellers in southern Europe found.",
+          "copyright": "Eric Gaillard/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/11/23/science/23TB-SUNLIGHT/merlin_130014654_038103ad-ba0c-4f75-866c-870db3b30e4b-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1370,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Promenade des Anglais at sunset in Nice, France. Even in artificially-lit urban areas, people are active longer in the summer and less so in winter, a study of city-dwellers in southern Europe found.",
+          "copyright": "Eric Gaillard/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2k2OSX2"
+    }
+  ]
+}

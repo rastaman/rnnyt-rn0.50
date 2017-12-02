@@ -51,3 +51,9 @@ buck-out/
 */fastlane/report.xml
 */fastlane/Preview.html
 */fastlane/screenshots
+
+# Don't store the NYT api key on github
+src/config/nytApiKey.js
+
+# Don't fix the packages version for this exercise
+package-lock.json

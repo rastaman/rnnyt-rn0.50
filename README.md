@@ -10,15 +10,17 @@ Updates :
 
 ## Progress
 
-I'm currently at chapter 4 of the book and so is the code.
+I'm currently at chapter 6 of the book and so is the code.
 
 ## Run the application
 
-It the app complain about a missing jsbundle at start launch it with `FORCE_BUNDLING` :
+It the app complain about a missing jsbundle at start launch it with `FORCE_BUNDLING` to force the rebuilding :
 
 ```sh
 $ FORCE_BUNDLING=1 react-native run-ios
 ```
+
+After the app has been rebundled, it should not be needed to use the variable again.
 
 ## Tooling
 

@@ -7,8 +7,8 @@ import {
   StatusBar
 } from 'react-native';
 
-import NewsFeed from './NewsFeed';
-import Search from './Search';
+import NewsFeedContainer from '../containers/NewsFeedContainer';
+import SearchContainer from '../containers/SearchContainer';
 import * as globalStyles from '../styles/global';
 
 // Set the status bar for iOS to light
@@ -46,13 +46,13 @@ export default class HomeScreen extends Component {
           onPress={() => this.setState({ tab: 'newsFeed' })}
           badge={4}
         >
-          <NewsFeed />
+          <NewsFeedContainer />
         </TabBarIOS.Item>
         <TabBarIOS.Item selected={this.state.tab === 'search'}
           systemIcon={'search'}
           onPress={() => this.setState({ tab: 'search' })}
         >
-          <Search />
+          <SearchContainer />
         </TabBarIOS.Item>
         <TabBarIOS.Item selected={this.state.tab === 'bookmarks'}
           systemIcon={'bookmarks'}
