@@ -10,7 +10,7 @@ Updates :
 
 ## Progress
 
-I'm currently at chapter 6 of the book and so is the code.
+I'm currently at chapter 7 / Navigator of the book and so is the code.
 
 ## Run the application
 
@@ -25,3 +25,7 @@ After the app has been rebundled, it should not be needed to use the variable ag
 ## Tooling
 
 - [How-To: Setup Atom with Nuclide, ESLint & Flow - Jesper Lund](https://jesperln.dk/how-to-setup-atom-with-nuclide-eslint-flow/)
+
+## Navigation
+
+- [Thousand Ways to Navigate in React Native – The React Native Log – Medium](https://medium.com/the-react-native-log/thousand-ways-to-navigate-in-react-native-f7a1e311a0e8)
