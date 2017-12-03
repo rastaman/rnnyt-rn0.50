@@ -10,7 +10,8 @@ Updates :
 
 ## Progress
 
-I'm currently at chapter 7 / Navigator of the book and so is the code.
+I'm currently at chapter 7 / Navigator of the book and so is the code. I had to use 'react-navigation' for 
+the last part of the chapter because the other ways are deprecated.
 
 ## Run the application
 
