@@ -29,3 +29,4 @@ After the app has been rebundled, it should not be needed to use the variable ag
 ## Navigation
 
 - [Thousand Ways to Navigate in React Native – The React Native Log – Medium](https://medium.com/the-react-native-log/thousand-ways-to-navigate-in-react-native-f7a1e311a0e8)
+- [React-Navigation, complete Redux state management, tab-bar, and multiple navigators](https://codeburst.io/react-navigation-with-complete-redux-state-management-tab-bar-and-multiple-navigators-ed30a69d9a4d)

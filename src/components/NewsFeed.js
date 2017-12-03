@@ -153,7 +153,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   container: {
-    flex: 1
+    flex: 1,
+    backgroundColor: globalStyles.BG_COLOR
   },
   loadingContainer: {
     alignItems: 'center',

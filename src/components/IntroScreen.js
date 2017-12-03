@@ -3,22 +3,18 @@ import PropTypes from 'prop-types';
 import {
   View,
   TouchableOpacity,
-  StatusBar,
   StyleSheet
 } from 'react-native';
 import Title from './Title';
 import AppText from './AppText';
 import * as globalStyles from '../styles/global';
 
-// Set the status bar for iOS to light
-StatusBar.setBarStyle('light-content');
-
-const IntroScreen = ({ navigator, nextScene }) => (
+const IntroScreen = ({ navigation }) => (
   <View style={[globalStyles.COMMON_STYLES.pageContainer,
     styles.container]}
   >
     <TouchableOpacity
-      onPress={() => navigator.push(nextScene)}
+      onPress={() => navigation.navigate('home')}
     >
       <Title>React Native News Reader</Title>
       <AppText>
@@ -29,10 +25,7 @@ const IntroScreen = ({ navigator, nextScene }) => (
 );
 
 IntroScreen.propTypes = {
-  navigator: PropTypes.shape({
-    push: PropTypes.func
-  }).isRequired,
-  nextScene: PropTypes.objectOf(PropTypes.any)
+  navigation: PropTypes.objectOf(PropTypes.any)
 };
 
 const styles = StyleSheet.create({
