@@ -4,13 +4,9 @@ import {
   ListView,
   StyleSheet,
   View,
-  Modal,
-  TouchableOpacity,
-  WebView,
   RefreshControl,
   ActivityIndicator
 } from 'react-native';
-import SmallText from './SmallText';
 import NewsItem from './NewsItem.ios';
 import * as globalStyles from '../styles/global';
 
@@ -23,12 +19,9 @@ export default class NewsFeed extends Component {
     this.state = {
       dataSource: this.ds.cloneWithRows(props.news),
       initialLoading: true,
-      modalVisible: false,
       refreshing: false
     };
-    this.onModalOpen = this.onModalOpen.bind(this);
     this.renderRow = this.renderRow.bind(this);
-    this.onModalClose = this.onModalClose.bind(this);
     this.refresh = this.refresh.bind(this);
   }
 
@@ -49,40 +42,13 @@ export default class NewsFeed extends Component {
     }
   }
 
-  renderModal() {
-    return (
-      <Modal visible={this.state.modalVisible} onRequestClose={this.onModalClose}
-        animationType="slide"
-      >
-        <View style={styles.modalContent}>
-          <TouchableOpacity onPress={this.onModalClose} style={styles.closeButton}>
-            <SmallText>Close</SmallText>
-          </TouchableOpacity>
-          <WebView scalesPageToFit={true} source={{ uri: this.state.modalUrl }} />
-        </View>
-      </Modal> );
-  }
-
-  onModalOpen(url) {
-    this.setState({
-      modalVisible: true,
-      modalUrl: url
-    });
-  }
-
-  onModalClose() {
-    this.setState({
-      modalVisible: false
-    });
-  }
-
   renderRow(rowData, ...rest) {
     const index = parseInt(rest[1], 10);
     return (
       <NewsItem
         style={styles.newsItem}
         index={index}
-        onPress={() => this.onModalOpen(rowData.url)}
+        onPress={() => this.props.navigation.navigate('feedDetail', { modalUrl: rowData.url})}
         {...rowData}
       />
     );
@@ -118,7 +84,6 @@ export default class NewsFeed extends Component {
               renderRow={this.renderRow}
               style={this.props.listStyles}
             />
-            {this.renderModal()}
           </View>
         )
       )
@@ -130,7 +95,8 @@ NewsFeed.propTypes = {
   news: PropTypes.arrayOf(PropTypes.object),
   listStyles: View.propTypes.style,
   loadNews: PropTypes.func,
-  showLoadingSpinner: PropTypes.bool
+  showLoadingSpinner: PropTypes.bool,
+  navigation: PropTypes.object
 };
 
 NewsFeed.defaultProps = {
@@ -140,17 +106,6 @@ NewsFeed.defaultProps = {
 const styles = StyleSheet.create({
   newsItem: {
     marginBottom: 20
-  },
-  modalContent: {
-    flex: 1,
-    justifyContent: 'center',
-    paddingTop: 20,
-    backgroundColor: globalStyles.BG_COLOR
-  },
-  closeButton: {
-    paddingVertical: 5,
-    paddingHorizontal: 10,
-    flexDirection: 'row'
   },
   container: {
     flex: 1,

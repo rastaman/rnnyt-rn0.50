@@ -5,7 +5,10 @@ import { allNewsSelector } from '../selectors/newsSelectors';
 import NewsFeed from '../components/NewsFeed';
 
 const mapStateToProps = state => ({
-  news: allNewsSelector(state)
+  news: allNewsSelector(state),
+  modalUrl: state.modalUrl,
+  modalNavigation: state.modalNavigation,
+  redux: state
 });
 
 const mapDispatchToProps = dispatch => (
@@ -14,4 +17,7 @@ const mapDispatchToProps = dispatch => (
   }, dispatch)
 );
 
-export default connect(mapStateToProps, mapDispatchToProps)(NewsFeed);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(NewsFeed);

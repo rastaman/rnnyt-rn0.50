@@ -6,9 +6,9 @@ import {
 } from 'react-native';
 import { addNavigationHelpers } from 'react-navigation';
 
-import TabsNavigator from '../TabsNavigator';
+import HomeNavigator from '../HomeNavigator';
 
-export default class HomeScreen extends Component {
+class HomeScreen extends Component {
 
   showBookmarkAlert() {
     Vibration.vibrate();
@@ -22,9 +22,10 @@ export default class HomeScreen extends Component {
   }
 
   render() {
+    console.log('HomeScreen Props', this.props);
     return (
-      <TabsNavigator
-        navigation={addNavigationHelpers({dispatch: this.props.dispatch, state: this.props.navigation})}
+      <HomeNavigator
+        navigation={addNavigationHelpers({dispatch: this.props.dispatch, state: this.props.homeNavigation})}
       />
     );
   }
@@ -32,5 +33,12 @@ export default class HomeScreen extends Component {
 
 HomeScreen.propTypes = {
   dispatch: PropTypes.func.isRequired,
-  navigation: PropTypes.objectOf(PropTypes.any)
+  homeNavigation: PropTypes.objectOf(PropTypes.any)
 };
+
+/*const mapStateToProps = (state) => ({
+  homeNavigation: state.homeNavigation,
+  redux: state
+});*/
+
+export default HomeScreen;
