@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import {
   Alert,
   Vibration
 } from 'react-native';
-import { addNavigationHelpers } from 'react-navigation';
 
 import TabsNavigator from '../TabsNavigator';
+import * as globalStyles from '../styles/global';
 
-export default class HomeScreen extends Component {
+class HomeScreen extends Component {
+  static navigationOptions = {
+    headerTitle: 'RNNYT',
+    headerStyle: { backgroundColor: globalStyles.MUTED_COLOR }
+  }
 
   showBookmarkAlert() {
     Vibration.vibrate();
@@ -22,15 +27,28 @@ export default class HomeScreen extends Component {
   }
 
   render() {
+    console.log('Tab props', this.props);
     return (
-      <TabsNavigator
-        navigation={addNavigationHelpers({dispatch: this.props.dispatch, state: this.props.navigation})}
-      />
+      <TabsNavigator />
     );
   }
 }
 
 HomeScreen.propTypes = {
   dispatch: PropTypes.func.isRequired,
-  navigation: PropTypes.objectOf(PropTypes.any)
+  navigation: PropTypes.objectOf(PropTypes.any).isRequired
 };
+
+const mapStateToProps = state => ({
+//  navigation: state.tabs,
+  redux: state
+});
+
+const mapDispatchToProps = dispatch => ({
+  dispatch
+});
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(HomeScreen);

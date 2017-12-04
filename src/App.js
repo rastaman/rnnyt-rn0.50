@@ -1,6 +1,6 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import NavContainer from './containers/NavContainer';
+import Nav from './components/Nav';
 import createStore from './createStore';
 import { StatusBar } from 'react-native';
 
@@ -11,6 +11,6 @@ StatusBar.setBarStyle('light-content');
 
 export default () => (
   <Provider store={store}>
-    <NavContainer />
+    <Nav />
   </Provider>
 );

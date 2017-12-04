@@ -9,20 +9,30 @@ import Title from './Title';
 import AppText from './AppText';
 import * as globalStyles from '../styles/global';
 
-const IntroScreen = ({ navigation }) => (
-  <View style={[globalStyles.COMMON_STYLES.pageContainer,
-    styles.container]}
-  >
-    <TouchableOpacity
-      onPress={() => navigation.navigate('home')}
-    >
-      <Title>React Native News Reader</Title>
-      <AppText>
+class IntroScreen extends React.Component {
+  static navigationOptions = {
+    headerTitle: 'Welcome',
+    headerStyle: { backgroundColor: globalStyles.MUTED_COLOR }
+  }
+
+  render() {
+    const { navigation } = this.props;
+    return (
+      <View style={[globalStyles.COMMON_STYLES.pageContainer,
+        styles.container]}
+      >
+        <TouchableOpacity
+          onPress={() => navigation.navigate('home')}
+        >
+          <Title>React Native News Reader</Title>
+          <AppText>
            Start Reading
-      </AppText>
-    </TouchableOpacity>
-  </View>
-);
+          </AppText>
+        </TouchableOpacity>
+      </View>
+    );
+  }
+}
 
 IntroScreen.propTypes = {
   navigation: PropTypes.objectOf(PropTypes.any)

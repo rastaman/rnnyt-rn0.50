@@ -4,6 +4,7 @@ import promiseMiddleware from 'redux-promise';
 import newsFeedReducer from './reducers/newsFeedReducer';
 import navigationReducer from './reducers/navigationReducer';
 import tabsNavigationReducer from './reducers/tabsNavigationReducer';
+import modalNavigationReducer from './reducers/modalReducer';
 import searchTermReducer from './reducers/searchTermReducer';
 
 const logger = createLogger();
@@ -13,8 +14,9 @@ export default (initialState = {}) => (
     combineReducers({
       news: newsFeedReducer,
       searchTerm: searchTermReducer,
-      navigation: navigationReducer,
-      tabsNavigation: tabsNavigationReducer
+      nav: navigationReducer,
+      tabs: tabsNavigationReducer,
+      modal: modalNavigationReducer
     }),
     initialState,
     applyMiddleware(logger, promiseMiddleware)

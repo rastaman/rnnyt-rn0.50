@@ -5,16 +5,26 @@ import {
   StyleSheet,
   View,
   Modal,
-  TouchableOpacity,
-  WebView,
   RefreshControl,
   ActivityIndicator
 } from 'react-native';
-import SmallText from './SmallText';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { loadNews } from '../actions/newsActions';
+import { allNewsSelector } from '../selectors/newsSelectors';
 import NewsItem from './NewsItem.ios';
+import NewsDetail from './NewsDetail';
 import * as globalStyles from '../styles/global';
 
-export default class NewsFeed extends Component {
+class NewsFeed extends Component {
+
+  static navigationOptions = {
+    tabBarLabel: 'Featured',
+    tabBarIcon: <Icon size={ 20 } name={ 'feed' } color={ globalStyles.LINK_COLOR } />
+  }
+
   constructor(props) {
     super(props);
     this.ds = new ListView.DataSource({
@@ -23,12 +33,9 @@ export default class NewsFeed extends Component {
     this.state = {
       dataSource: this.ds.cloneWithRows(props.news),
       initialLoading: true,
-      modalVisible: false,
       refreshing: false
     };
-    this.onModalOpen = this.onModalOpen.bind(this);
     this.renderRow = this.renderRow.bind(this);
-    this.onModalClose = this.onModalClose.bind(this);
     this.refresh = this.refresh.bind(this);
   }
 
@@ -49,40 +56,19 @@ export default class NewsFeed extends Component {
     }
   }
 
-  renderModal() {
-    return (
-      <Modal visible={this.state.modalVisible} onRequestClose={this.onModalClose}
-        animationType="slide"
-      >
-        <View style={styles.modalContent}>
-          <TouchableOpacity onPress={this.onModalClose} style={styles.closeButton}>
-            <SmallText>Close</SmallText>
-          </TouchableOpacity>
-          <WebView scalesPageToFit={true} source={{ uri: this.state.modalUrl }} />
-        </View>
-      </Modal> );
-  }
-
-  onModalOpen(url) {
-    this.setState({
-      modalVisible: true,
-      modalUrl: url
-    });
-  }
-
-  onModalClose() {
-    this.setState({
-      modalVisible: false
-    });
-  }
-
   renderRow(rowData, ...rest) {
     const index = parseInt(rest[1], 10);
+    const { navigation } = this.props;
+    console.log('row navigation', navigation);
     return (
       <NewsItem
         style={styles.newsItem}
         index={index}
-        onPress={() => this.onModalOpen(rowData.url)}
+        onPress={() => {
+          const ret = navigation.navigate('detail', { modalUrl: rowData.url });
+          console.log('Clicked on ' + rowData.url, navigation, ret);
+          return ret;
+        }}
         {...rowData}
       />
     );
@@ -94,7 +80,6 @@ export default class NewsFeed extends Component {
       showLoadingSpinner
     } = this.props;
     const { initialLoading, refreshing, dataSource } = this.state;
-
     return (
       (initialLoading && showLoadingSpinner
         ? (
@@ -118,7 +103,6 @@ export default class NewsFeed extends Component {
               renderRow={this.renderRow}
               style={this.props.listStyles}
             />
-            {this.renderModal()}
           </View>
         )
       )
@@ -130,7 +114,10 @@ NewsFeed.propTypes = {
   news: PropTypes.arrayOf(PropTypes.object),
   listStyles: View.propTypes.style,
   loadNews: PropTypes.func,
-  showLoadingSpinner: PropTypes.bool
+  showLoadingSpinner: PropTypes.bool,
+  dispatch: PropTypes.func,
+  navigation: PropTypes.objectOf(PropTypes.any).isRequired,
+  redux: PropTypes.objectOf(PropTypes.any)
 };
 
 NewsFeed.defaultProps = {
@@ -141,17 +128,6 @@ const styles = StyleSheet.create({
   newsItem: {
     marginBottom: 20
   },
-  modalContent: {
-    flex: 1,
-    justifyContent: 'center',
-    paddingTop: 20,
-    backgroundColor: globalStyles.BG_COLOR
-  },
-  closeButton: {
-    paddingVertical: 5,
-    paddingHorizontal: 10,
-    flexDirection: 'row'
-  },
   container: {
     flex: 1,
     backgroundColor: globalStyles.BG_COLOR
@@ -161,3 +137,31 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   }
 });
+
+/*
+const mapStateToProps = state => ({
+  news: allNewsSelector(state),
+  navigation: state.modal,
+  redux: state
+});
+*/
+
+const mapStateToProps = state => {
+  console.log('Received state', state);
+  return ({
+    news: allNewsSelector(state),
+    //  navigation: state.modal,
+    redux: state
+  });
+};
+
+const mapDispatchToProps = dispatch => {
+  console.log('Received dispatch', dispatch);
+  return (
+    bindActionCreators({
+      loadNews
+    }, dispatch)
+  );
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(NewsFeed);

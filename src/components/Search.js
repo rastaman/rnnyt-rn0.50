@@ -5,10 +5,23 @@ import {
   TextInput,
   StyleSheet
 } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+import { addNavigationHelpers } from 'react-navigation';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { searchNews } from '../actions/newsActions';
+import { searchNewsSelector } from '../selectors/newsSelectors';
+
 import NewsFeed from './NewsFeed';
 import * as globalStyles from '../styles/global';
 
-export default class Search extends Component {
+class Search extends Component {
+  static navigationOptions = {
+    tabBarLabel: 'Search',
+    tabBarIcon: <Icon size={ 20 } name={ 'search' } color={ globalStyles.LINK_COLOR } />
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -36,6 +49,7 @@ export default class Search extends Component {
         <NewsFeed
           news={this.props.filteredNews}
           listStyles={{}}
+          navigation={addNavigationHelpers({dispatch: this.props.dispatch, state: this.props.navigation})}
           showLoadingSpinner={false}
         />
       </View>
@@ -45,7 +59,10 @@ export default class Search extends Component {
 
 Search.propTypes = {
   filteredNews: PropTypes.arrayOf(PropTypes.object),
-  searchNews: PropTypes.func.isRequired
+  searchNews: PropTypes.func.isRequired,
+  dispatch: PropTypes.func,
+  navigation: PropTypes.objectOf(PropTypes.any).isRequired,
+  redux: PropTypes.objectOf(PropTypes.any)
 };
 
 const styles = StyleSheet.create({
@@ -65,3 +82,17 @@ const styles = StyleSheet.create({
     marginBottom: 5
   }
 });
+
+const mapStateToProps = state => ({
+  filteredNews: searchNewsSelector(state),
+  //navigation: state.navigation,
+  redux: state
+});
+
+const mapDispatchToProps = dispatch => (
+  bindActionCreators({
+    searchNews
+  }, dispatch)
+);
+
+export default connect(mapStateToProps, mapDispatchToProps)(Search);
