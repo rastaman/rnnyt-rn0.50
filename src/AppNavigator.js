@@ -1,11 +1,12 @@
 import { StackNavigator } from 'react-navigation';
 
 import IntroScreen from './components/IntroScreen';
-import ModalNavigator from './ModalNavigator';
+import HomeScreen from './components/HomeScreen.ios';
+//import ModalNavigator from './ModalNavigator';
 
 const AppNavigator = StackNavigator({
   home: {
-    screen: ModalNavigator
+    screen: HomeScreen
   },
   intro: {
     screen: IntroScreen

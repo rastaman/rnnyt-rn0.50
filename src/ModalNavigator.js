@@ -1,11 +1,12 @@
 import { StackNavigator } from 'react-navigation';
 
-import HomeScreen from './components/HomeScreen.ios';
+//import HomeScreen from './components/HomeScreen.ios';
+import NewsContainer from './containers/NewsContainer';
 import NewsDetail from './components/NewsDetail';
 
 const ModalNavigator = StackNavigator({
-  homeModal: {
-    screen: HomeScreen
+  newsfeed: {
+    screen: NewsContainer
   },
   detail: {
     screen: NewsDetail

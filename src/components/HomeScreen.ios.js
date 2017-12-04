@@ -27,7 +27,7 @@ class HomeScreen extends Component {
   }
 
   render() {
-    console.log('Tab props', this.props);
+    //console.log('Tab props', this.props);
     return (
       <TabsNavigator />
     );

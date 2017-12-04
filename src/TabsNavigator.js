@@ -2,18 +2,19 @@
 //import PropTypes from 'prop-types';
 import { TabNavigator } from 'react-navigation';
 
-import NewsFeed from './components/NewsFeed';
-import Search from './components/Search';
+//import NewsFeed from './components/NewsFeed';
+import ModalNavigator from './ModalNavigator';
+import SearchContainer from './containers/SearchContainer';
 import Bookmarks from './components/Bookmarks';
 
 import * as globalStyles from './styles/global';
 
 const TabsNavigator = TabNavigator({
   feed: {
-    screen: NewsFeed
+    screen: ModalNavigator
   },
   search: {
-    screen: Search
+    screen: SearchContainer
   },
   bookmarks: {
     screen: Bookmarks

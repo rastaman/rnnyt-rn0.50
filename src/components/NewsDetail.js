@@ -13,11 +13,12 @@ import * as globalStyles from '../styles/global';
 class NewsDetail extends React.Component{
 
   render() {
-    const { navigation, modalUrl } = this.props;
-    console.log('Display news detail', this);
+    const { navigation } = this.props;
+    const { modalUrl } = this.props.navigation.state.params;
+    console.log('Will display ' + modalUrl, this.props.navigation.state);
     return (
       <View style={styles.modalContent}>
-        <TouchableOpacity onPress={() => navigation.navigate('homeModal')} style={styles.closeButton}>
+        <TouchableOpacity onPress={() => navigation.navigate('newsfeed')} style={styles.closeButton}>
           <SmallText>Close</SmallText>
         </TouchableOpacity>
         <WebView scalesPageToFit={true} source={{ uri: modalUrl }} />
@@ -28,8 +29,7 @@ class NewsDetail extends React.Component{
 }
 
 NewsDetail.propTypes = {
-  navigation: PropTypes.objectOf(PropTypes.any),
-  modalUrl: PropTypes.string
+  navigation: PropTypes.objectOf(PropTypes.any)
 };
 
 const styles = StyleSheet.create({
@@ -46,14 +46,4 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapStateToProps = state => ({
-  modalUrl: state.modalUrl
-});
-
-const mapDispatchToProps = dispatch => (
-  dispatch
-);
-
-export default connect(mapStateToProps, mapDispatchToProps)(NewsDetail);
-
-//export default NewsDetail;
+export default NewsDetail;

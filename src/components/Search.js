@@ -7,12 +7,6 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import { addNavigationHelpers } from 'react-navigation';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import { searchNews } from '../actions/newsActions';
-import { searchNewsSelector } from '../selectors/newsSelectors';
-
 import NewsFeed from './NewsFeed';
 import * as globalStyles from '../styles/global';
 
@@ -36,6 +30,7 @@ class Search extends Component {
   }
 
   render() {
+    const { filteredNews, navigation } = this.props;
     return (
       <View style={globalStyles.COMMON_STYLES.pageContainer}>
         <View style={styles.search}>
@@ -47,9 +42,9 @@ class Search extends Component {
           />
         </View>
         <NewsFeed
-          news={this.props.filteredNews}
+          news={filteredNews}
           listStyles={{}}
-          navigation={addNavigationHelpers({dispatch: this.props.dispatch, state: this.props.navigation})}
+          navigation={navigation}
           showLoadingSpinner={false}
         />
       </View>
@@ -83,16 +78,4 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapStateToProps = state => ({
-  filteredNews: searchNewsSelector(state),
-  //navigation: state.navigation,
-  redux: state
-});
-
-const mapDispatchToProps = dispatch => (
-  bindActionCreators({
-    searchNews
-  }, dispatch)
-);
-
-export default connect(mapStateToProps, mapDispatchToProps)(Search);
+export default Search;

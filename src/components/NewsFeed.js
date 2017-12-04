@@ -4,18 +4,13 @@ import {
   ListView,
   StyleSheet,
   View,
-  Modal,
   RefreshControl,
   ActivityIndicator
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import { loadNews } from '../actions/newsActions';
-import { allNewsSelector } from '../selectors/newsSelectors';
 import NewsItem from './NewsItem.ios';
-import NewsDetail from './NewsDetail';
+
 import * as globalStyles from '../styles/global';
 
 class NewsFeed extends Component {
@@ -59,16 +54,11 @@ class NewsFeed extends Component {
   renderRow(rowData, ...rest) {
     const index = parseInt(rest[1], 10);
     const { navigation } = this.props;
-    console.log('row navigation', navigation);
     return (
       <NewsItem
         style={styles.newsItem}
         index={index}
-        onPress={() => {
-          const ret = navigation.navigate('detail', { modalUrl: rowData.url });
-          console.log('Clicked on ' + rowData.url, navigation, ret);
-          return ret;
-        }}
+        onPress={() => navigation.navigate('detail', { modalUrl: rowData.url })}
         {...rowData}
       />
     );
@@ -138,30 +128,4 @@ const styles = StyleSheet.create({
   }
 });
 
-/*
-const mapStateToProps = state => ({
-  news: allNewsSelector(state),
-  navigation: state.modal,
-  redux: state
-});
-*/
-
-const mapStateToProps = state => {
-  console.log('Received state', state);
-  return ({
-    news: allNewsSelector(state),
-    //  navigation: state.modal,
-    redux: state
-  });
-};
-
-const mapDispatchToProps = dispatch => {
-  console.log('Received dispatch', dispatch);
-  return (
-    bindActionCreators({
-      loadNews
-    }, dispatch)
-  );
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(NewsFeed);
+export default NewsFeed;

@@ -28,9 +28,10 @@ export const filterNewsBySearchTerm = (newsItems, searchTerm) => {
   if (searchTerm.length === 0) {
     return [];
   }
-  return newsItems.filter(({ description, author, title }) => (
+  const results = newsItems.filter(({ description, author, title }) => (
     description.toLowerCase().indexOf(searchTerm) > -1 ||
     author.toLowerCase().indexOf(searchTerm) > -1 ||
     title.toLowerCase().indexOf(searchTerm) > -1
   ));
+  return results;
 };

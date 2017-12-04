@@ -8,7 +8,7 @@ import AppNavigator from '../AppNavigator';
 class Nav extends Component {
 
   render() {
-    console.log('Nav props', this.props);
+    //console.log('Nav props', this.props);
     return (
       <AppNavigator
         navigation={addNavigationHelpers({dispatch: this.props.dispatch, state: this.props.navigation})}
