@@ -22,7 +22,7 @@ class IntroScreen extends React.Component {
         styles.container]}
       >
         <TouchableOpacity
-          onPress={() => navigation.navigate('home')}
+          onPress={() => navigation.navigate('onboarding')}
         >
           <Title>React Native News Reader</Title>
           <AppText>
