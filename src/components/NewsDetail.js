@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
 import {
   StyleSheet,
   View,
@@ -11,14 +10,16 @@ import SmallText from './SmallText';
 import * as globalStyles from '../styles/global';
 
 class NewsDetail extends React.Component{
+  static navigationOptions = {
+    header: null
+  }
 
   render() {
     const { navigation } = this.props;
     const { modalUrl } = this.props.navigation.state.params;
-    console.log('Will display ' + modalUrl, this.props.navigation.state);
     return (
       <View style={styles.modalContent}>
-        <TouchableOpacity onPress={() => navigation.navigate('newsfeed')} style={styles.closeButton}>
+        <TouchableOpacity onPress={() => navigation.goBack(null)} style={styles.closeButton}>
           <SmallText>Close</SmallText>
         </TouchableOpacity>
         <WebView scalesPageToFit={true} source={{ uri: modalUrl }} />

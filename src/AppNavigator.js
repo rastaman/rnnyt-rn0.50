@@ -11,6 +11,10 @@ const AppNavigator = StackNavigator({
   intro: {
     screen: IntroScreen
   }
+},
+{
+  mode: 'card',
+  headerMode: 'screen'
 });
 
 export default AppNavigator;

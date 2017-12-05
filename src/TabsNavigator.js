@@ -1,12 +1,9 @@
-//import React from 'react';
-//import PropTypes from 'prop-types';
 import { TabNavigator, StackNavigator } from 'react-navigation';
 
-//import NewsFeed from './components/NewsFeed';
 import NewsContainer from './containers/NewsContainer';
 import SearchContainer from './containers/SearchContainer';
 import Bookmarks from './components/Bookmarks';
-import HomeScreen from './components/HomeScreen.ios';
+import HomeScreen from './components/HomeScreen';
 import NewsDetail from './components/NewsDetail';
 
 import * as globalStyles from './styles/global';
@@ -32,14 +29,12 @@ const TabsNavigator = TabNavigator({
   },
   bookmarks: {
     screen: Bookmarks
-  }//,
-  //parent: {
-  //  screen: ParentModalNavigator
-  //}
+  }
 }, {
   tabBarOptions: {
     style: { backgroundColor: globalStyles.BG_COLOR }
-  }
+  },
+  headerMode: 'screen'
 });
 
 export { TabsNavigator, ParentModalNavigator };

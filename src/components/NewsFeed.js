@@ -53,25 +53,13 @@ class NewsFeed extends Component {
 
   renderRow(rowData, ...rest) {
     const index = parseInt(rest[1], 10);
-    const { navigation } = this.props;
-    //onPress={() => navigation.navigate('detail', { modalUrl: rowData.url })}
+    const { rootNavigation } = this.props.screenProps;
     return (
       <NewsItem
         style={styles.newsItem}
         index={index}
         onPress={() => {
-          //const ret = navigation.navigate('detail', { modalUrl: rowData.url });
-          const ret = navigation.dispatch({
-            type: 'Navigation/NAVIGATE',
-            routeName: 'parent',
-            action: {
-              routeName: 'detail',
-              type: 'Navigation/NAVIGATE',
-              params: { modalUrl: rowData.url }
-            }
-          });
-          console.log('Ret is', ret);
-          return ret;
+          return rootNavigation.navigate('detail', { modalUrl: rowData.url });
         }}
         {...rowData}
       />
@@ -84,32 +72,31 @@ class NewsFeed extends Component {
       showLoadingSpinner
     } = this.props;
     const { initialLoading, refreshing, dataSource } = this.state;
+    if (initialLoading && showLoadingSpinner) {
+      return (
+        <View style={[listStyles, styles.loadingContainer]}>
+          <ActivityIndicator
+            animating={true}
+            size="small"
+            {...this.props}
+          />
+        </View>
+      );
+    }
     return (
-      (initialLoading && showLoadingSpinner
-        ? (
-          <View style={[listStyles, styles.loadingContainer]}>
-            <ActivityIndicator
-              animating={true}
-              size="small"
-              {...this.props}
-            />
-          </View>
-        ) : (
-          <View style={styles.container}>
-            <ListView
-              refreshControl={
-                <RefreshControl
-                  refreshing={refreshing}
-                  onRefresh={this.refresh}
-                /> }
-              enableEmptySections={true}
-              dataSource={dataSource}
-              renderRow={this.renderRow}
-              style={this.props.listStyles}
-            />
-          </View>
-        )
-      )
+      <View style={styles.container}>
+        <ListView
+          refreshControl={
+            <RefreshControl
+              refreshing={refreshing}
+              onRefresh={this.refresh}
+            /> }
+          enableEmptySections={true}
+          dataSource={dataSource}
+          renderRow={this.renderRow}
+          style={this.props.listStyles}
+        />
+      </View>
     );
   }
 }
@@ -119,7 +106,8 @@ NewsFeed.propTypes = {
   listStyles: View.propTypes.style,
   loadNews: PropTypes.func,
   showLoadingSpinner: PropTypes.bool,
-  navigation: PropTypes.objectOf(PropTypes.any).isRequired
+  navigation: PropTypes.objectOf(PropTypes.any).isRequired,
+  screenProps: PropTypes.objectOf(PropTypes.any)
 };
 
 NewsFeed.defaultProps = {
