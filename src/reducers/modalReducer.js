@@ -1,9 +1,9 @@
-import ModalNavigator from '../ModalNavigator';
+import  { ParentModalNavigator } from '../TabsNavigator';
 
-const initialState = ModalNavigator.router.getStateForAction(
-  ModalNavigator.router.getActionForPathAndParams('newsfeed'));
+const initialState = ParentModalNavigator.router.getStateForAction(
+  ParentModalNavigator.router.getActionForPathAndParams('main'));
 
 export default (state = initialState, action = {}) => {
-  const nextState = ModalNavigator.router.getStateForAction(action, state);
+  const nextState = ParentModalNavigator.router.getStateForAction(action, state);
   return nextState || state;
 };

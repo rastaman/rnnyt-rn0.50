@@ -10,7 +10,7 @@ Updates :
 
 ## Progress
 
-I'm currently at chapter 7 / Navigator of the book and so is the code. I had to use 'react-navigation' for 
+I'm currently at chapter 7 / Navigator of the book and so is the code. I had to use 'react-navigation' for
 the last part of the chapter because the other ways are deprecated.
 
 ## Run the application
@@ -30,4 +30,15 @@ After the app has been rebundled, it should not be needed to use the variable ag
 ## Navigation
 
 - [Thousand Ways to Navigate in React Native – The React Native Log – Medium](https://medium.com/the-react-native-log/thousand-ways-to-navigate-in-react-native-f7a1e311a0e8)
+
+### Redux with react-navigation
 - [React-Navigation, complete Redux state management, tab-bar, and multiple navigators](https://codeburst.io/react-navigation-with-complete-redux-state-management-tab-bar-and-multiple-navigators-ed30a69d9a4d)
+
+### Params
+
+- [Params not being passed when navigating between Stacks (repro included) · Issue #143 · react-community/react-navigation](https://github.com/react-community/react-navigation/issues/143)
+
+### Modals and go back
+
+- [Choose transition mode for each screen in StackNavigator · Issue #707 · react-community/react-navigation](https://github.com/react-community/react-navigation/issues/707)
+- [make a specific screen a modal? · Issue #770 · react-community/react-navigation](https://github.com/react-community/react-navigation/issues/770)

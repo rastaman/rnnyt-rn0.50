@@ -6,7 +6,7 @@ import {
   Vibration
 } from 'react-native';
 
-import TabsNavigator from '../TabsNavigator';
+import { TabsNavigator } from '../TabsNavigator';
 import * as globalStyles from '../styles/global';
 
 class HomeScreen extends Component {

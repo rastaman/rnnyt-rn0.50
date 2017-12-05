@@ -54,11 +54,25 @@ class NewsFeed extends Component {
   renderRow(rowData, ...rest) {
     const index = parseInt(rest[1], 10);
     const { navigation } = this.props;
+    //onPress={() => navigation.navigate('detail', { modalUrl: rowData.url })}
     return (
       <NewsItem
         style={styles.newsItem}
         index={index}
-        onPress={() => navigation.navigate('detail', { modalUrl: rowData.url })}
+        onPress={() => {
+          //const ret = navigation.navigate('detail', { modalUrl: rowData.url });
+          const ret = navigation.dispatch({
+            type: 'Navigation/NAVIGATE',
+            routeName: 'parent',
+            action: {
+              routeName: 'detail',
+              type: 'Navigation/NAVIGATE',
+              params: { modalUrl: rowData.url }
+            }
+          });
+          console.log('Ret is', ret);
+          return ret;
+        }}
         {...rowData}
       />
     );
@@ -105,9 +119,7 @@ NewsFeed.propTypes = {
   listStyles: View.propTypes.style,
   loadNews: PropTypes.func,
   showLoadingSpinner: PropTypes.bool,
-  dispatch: PropTypes.func,
-  navigation: PropTypes.objectOf(PropTypes.any).isRequired,
-  redux: PropTypes.objectOf(PropTypes.any)
+  navigation: PropTypes.objectOf(PropTypes.any).isRequired
 };
 
 NewsFeed.defaultProps = {

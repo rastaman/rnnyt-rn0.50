@@ -1,4 +1,4 @@
-import TabsNavigator from '../TabsNavigator';
+import { TabsNavigator } from '../TabsNavigator';
 
 const initialState = TabsNavigator.router.getStateForAction(
   TabsNavigator.router.getActionForPathAndParams('feed'));
