@@ -43,3 +43,4 @@ After the app has been rebundled, it should not be needed to use the variable ag
 - [Choose transition mode for each screen in StackNavigator · Issue #707 · react-community/react-navigation](https://github.com/react-community/react-navigation/issues/707)
 - [make a specific screen a modal? · Issue #770 · react-community/react-navigation](https://github.com/react-community/react-navigation/issues/770)
 - [Navigator props - TabNavigator | React Navigation](https://reactnavigation.org/docs/navigators/tab#Navigator-Props)
+- [Cannot hide header · Issue #293 · react-community/react-navigation](https://github.com/react-community/react-navigation/issues/293)

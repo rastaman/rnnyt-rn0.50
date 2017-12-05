@@ -6,6 +6,7 @@ import navigationReducer from './reducers/navigationReducer';
 import tabsNavigationReducer from './reducers/tabsNavigationReducer';
 import modalNavigationReducer from './reducers/modalReducer';
 import searchTermReducer from './reducers/searchTermReducer';
+import bookmarkReducer from './reducers/bookmarkReducer';
 
 const logger = createLogger();
 
@@ -16,7 +17,8 @@ export default (initialState = {}) => (
       searchTerm: searchTermReducer,
       nav: navigationReducer,
       tabs: tabsNavigationReducer,
-      modal: modalNavigationReducer
+      modal: modalNavigationReducer,
+      bookmarks: bookmarkReducer
     }),
     initialState,
     applyMiddleware(logger, promiseMiddleware)

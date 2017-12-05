@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { searchNews } from '../actions/newsActions';
 import { searchNewsSelector } from '../selectors/newsSelectors';
+import { addBookmark } from '../actions/bookmarkActions';
 
 import Search from '../components/Search';
 
@@ -13,7 +14,8 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => (
   bindActionCreators({
-    searchNews
+    searchNews,
+    addBookmark
   }, dispatch)
 );
 

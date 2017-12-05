@@ -24,3 +24,14 @@ export const searchNewsSelector = createSelector(
   [reshapeNewsSelector, caseInsensitiveSearchTermSelector],
   filterNewsBySearchTerm
 );
+
+const bookmarksSelector = state => state.bookmarks;
+
+export const bookmarkedNewsSelector = createSelector(
+  [allNewsSelector, bookmarksSelector],
+  (newsItems, bookmarks) => {
+    const ret = newsItems.filter(newsItem => bookmarks.indexOf(newsItem.url) > -1);
+    console.log('Bookmarks',bookmarks,'Items',newsItems,'ret',ret);
+    return ret;
+  }
+);

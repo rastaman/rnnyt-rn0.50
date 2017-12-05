@@ -30,7 +30,7 @@ class Search extends Component {
   }
 
   render() {
-    const { filteredNews, navigation, screenProps } = this.props;
+    const { filteredNews, navigation, screenProps, addBookmark } = this.props;
     return (
       <View style={globalStyles.COMMON_STYLES.pageContainer}>
         <View style={styles.search}>
@@ -47,6 +47,7 @@ class Search extends Component {
           navigation={navigation}
           screenProps={screenProps}
           showLoadingSpinner={false}
+          addBookmark={addBookmark}
         />
       </View>
     );
@@ -57,6 +58,7 @@ Search.propTypes = {
   filteredNews: PropTypes.arrayOf(PropTypes.object),
   searchNews: PropTypes.func.isRequired,
   dispatch: PropTypes.func,
+  addBookmark: PropTypes.func.isRequired,
   navigation: PropTypes.objectOf(PropTypes.any).isRequired,
   screenProps: PropTypes.objectOf(PropTypes.any),
   redux: PropTypes.objectOf(PropTypes.any)

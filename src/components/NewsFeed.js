@@ -5,20 +5,16 @@ import {
   StyleSheet,
   View,
   RefreshControl,
-  ActivityIndicator
+  ActivityIndicator,
+  NetInfo
 } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
 
 import NewsItem from './NewsItem.ios';
 
+import AppText from './AppText';
 import * as globalStyles from '../styles/global';
 
 class NewsFeed extends Component {
-
-  static navigationOptions = {
-    tabBarLabel: 'Featured',
-    tabBarIcon: <Icon size={ 20 } name={ 'feed' } color={ globalStyles.LINK_COLOR } />
-  }
 
   constructor(props) {
     super(props);
@@ -28,13 +24,16 @@ class NewsFeed extends Component {
     this.state = {
       dataSource: this.ds.cloneWithRows(props.news),
       initialLoading: true,
-      refreshing: false
+      refreshing: false,
+      connected: true
     };
     this.renderRow = this.renderRow.bind(this);
     this.refresh = this.refresh.bind(this);
+    this.handleConnectivityChange = this.handleConnectivityChange.bind(this);
   }
 
   componentWillMount() {
+    NetInfo.isConnected.addEventListener('connectionChange', this.handleConnectivityChange);
     this.refresh();
   }
 
@@ -45,9 +44,27 @@ class NewsFeed extends Component {
     });
   }
 
+  componentDidUpdate() {
+    console.log('Component did update');
+  }
+
+  componentWillUnmount() {
+    NetInfo.isConnected.removeEventListener('change', this.handleConnectivityChange);
+  }
+
+  handleConnectivityChange(isConnected) {
+    this.setState({
+      connected: isConnected
+    });
+    if (isConnected) {
+      this.refresh();
+    }
+  }
+
+
   refresh() {
-    if (this.props.loadNews) {
-      this.props.loadNews();
+    if (this.props.load) {
+      this.props.load();
     }
   }
 
@@ -61,17 +78,26 @@ class NewsFeed extends Component {
         onPress={() => {
           return rootNavigation.navigate('detail', { modalUrl: rowData.url });
         }}
+        onBookmark={() => this.props.addBookmark( rowData.url )}
         {...rowData}
       />
     );
   }
 
   render() {
+    console.log('me',this);
     const {
       listStyles = globalStyles.COMMON_STYLES.pageContainer,
       showLoadingSpinner
     } = this.props;
     const { initialLoading, refreshing, dataSource } = this.state;
+    if (!this.state.connected) {
+      return (
+        <View style={[globalStyles.COMMON_STYLES.pageContainer, styles.loadingContainer]}>
+          <AppText>No Connection</AppText>
+        </View>
+      );
+    }
     if (initialLoading && showLoadingSpinner) {
       return (
         <View style={[listStyles, styles.loadingContainer]}>
@@ -104,10 +130,11 @@ class NewsFeed extends Component {
 NewsFeed.propTypes = {
   news: PropTypes.arrayOf(PropTypes.object),
   listStyles: View.propTypes.style,
-  loadNews: PropTypes.func,
+  load: PropTypes.func,
   showLoadingSpinner: PropTypes.bool,
   navigation: PropTypes.objectOf(PropTypes.any).isRequired,
-  screenProps: PropTypes.objectOf(PropTypes.any)
+  screenProps: PropTypes.objectOf(PropTypes.any),
+  addBookmark: PropTypes.func.isRequired
 };
 
 NewsFeed.defaultProps = {
