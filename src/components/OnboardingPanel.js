@@ -19,7 +19,6 @@ const IMAGE_SIZE = 300;
 
 const OnboardingPanel = ({ backgroundColor, message, uri, style }) => {
   const mainViewStyle = [styles.panel, { backgroundColor }, style];
-  console.log('Main', mainViewStyle, 'Panel', styles.panel, 'Style', style);
   return (
     <View
       style={mainViewStyle}

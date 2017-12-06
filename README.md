@@ -44,3 +44,10 @@ After the app has been rebundled, it should not be needed to use the variable ag
 - [make a specific screen a modal? · Issue #770 · react-community/react-navigation](https://github.com/react-community/react-navigation/issues/770)
 - [Navigator props - TabNavigator | React Navigation](https://reactnavigation.org/docs/navigators/tab#Navigator-Props)
 - [Cannot hide header · Issue #293 · react-community/react-navigation](https://github.com/react-community/react-navigation/issues/293)
+
+### Animations
+
+Tip: Set flex to 0 for the width to take effect.
+
+- [Animate Your React Native App](https://code.tutsplus.com/tutorials/working-with-animations-in-react-native--cms-27328)
+- [Guide de référence des fonctions d'easing](http://easings.net/fr)
