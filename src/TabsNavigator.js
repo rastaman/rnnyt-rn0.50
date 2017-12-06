@@ -1,5 +1,5 @@
 import React from 'react';
-import { TabNavigator, StackNavigator } from 'react-navigation';
+import { TabNavigator, StackNavigator, DrawerNavigator } from 'react-navigation';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
 
@@ -32,7 +32,11 @@ const TabsNavigator = TabNavigator({
     }
   },
   search: {
-    screen: SearchContainer
+    screen: SearchContainer,
+    navigationOptions: {
+      tabBarLabel: 'Search',
+      tabBarIcon: <Icon size={ 20 } name={ 'search' } color={ globalStyles.LINK_COLOR } />
+    }
   },
   bookmarks: {
     screen: BookmarksContainer,
@@ -49,4 +53,30 @@ const TabsNavigator = TabNavigator({
   headerMode: 'screen'
 });
 
-export { TabsNavigator, ParentModalNavigator };
+const SideNavigator = DrawerNavigator({
+  feed: {
+    screen: NewsContainer,
+    navigationOptions: {
+      drawerLabel: 'Featured',
+      drawerIcon: <Icon size={ 20 } name={ 'feed' } color={ globalStyles.LINK_COLOR } />
+    }
+  },
+  search: {
+    screen: SearchContainer,
+    navigationOptions: {
+      drawerLabel: 'Search',
+      drawerIcon: <Icon size={ 20 } name={ 'search' } color={ globalStyles.LINK_COLOR } />
+    }
+  },
+  bookmarks: {
+    screen: BookmarksContainer,
+    navigationOptions: {
+      drawerLabel: 'Bookmark',
+      drawerIcon: <Icon size={ 20 } name={ 'bookmark' } color={ globalStyles.LINK_COLOR } />
+    }
+  }
+},{
+  initialRouteName: 'feed'
+});
+
+export { TabsNavigator, ParentModalNavigator, SideNavigator };

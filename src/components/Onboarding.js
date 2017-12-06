@@ -5,7 +5,8 @@ import {
   View,
   LayoutAnimation,
   Animated,
-  PanResponder
+  PanResponder,
+  UIManager
 } from 'react-native';
 
 import AppText from './AppText';
@@ -31,6 +32,9 @@ export default class Onboarding extends Component {
       isDone: false,
       pan: new Animated.Value(0)
     };
+    if (UIManager.setLayoutAnimationEnabledExperimental) {
+      UIManager.setLayoutAnimationEnabledExperimental(true);
+    }
   }
 
   componentWillMount() {

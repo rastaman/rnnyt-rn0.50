@@ -1,5 +1,8 @@
 import { StyleSheet } from 'react-native';
 
+import platformStyles from './platform';
+const { PAGE_CONTAINER_STYLE, TEXT_STYLE } = platformStyles;
+
 export const BG_COLOR = '#343336';
 export const BAR_COLOR = '#4e4d52';
 export const TEXT_COLOR = '#e5dbda';
@@ -11,14 +14,11 @@ export const LIGHT_OVERLAY_COLOR = '#fff2';
 export const COMMON_STYLES = StyleSheet.create({
   text: {
     color: TEXT_COLOR,
-    fontFamily: 'Helvetica Neue'
+    ...TEXT_STYLE
   },
   pageContainer: {
     backgroundColor: BG_COLOR,
     flex: 1,
-    paddingTop: 20,
-    marginBottom: 0,
-    marginHorizontal: 0,
-    paddingHorizontal: 10
+    ...PAGE_CONTAINER_STYLE
   }
 });

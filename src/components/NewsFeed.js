@@ -9,7 +9,7 @@ import {
   NetInfo
 } from 'react-native';
 
-import NewsItem from './NewsItem.ios';
+import NewsItem from './NewsItem';
 
 import AppText from './AppText';
 import * as globalStyles from '../styles/global';

@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import {
   View,
   TouchableOpacity,
-  StyleSheet,
-  ActionSheetIOS
+  StyleSheet
 } from 'react-native';
+import ActionSheet from 'react-native-actionsheet';
 import Byline from './Byline';
 import AppText from './AppText';
 import Thumbnail from './Thumbnail';
@@ -19,15 +19,7 @@ export default class NewsItem extends Component {
   }
 
   onLongPress() {
-    ActionSheetIOS.showActionSheetWithOptions({
-      options: ['Bookmark', 'Cancel'],
-      cancelButtonIndex: 1,
-      title: this.props.title
-    }, (buttonIndex) => {
-      if (buttonIndex === 0) {
-        this.props.onBookmark();
-      }
-    });
+    this.ActionSheet.show();
   }
 
   render() {
@@ -46,26 +38,40 @@ export default class NewsItem extends Component {
     ];
 
     return (
-      <TouchableOpacity style={style} onPress={onPress} onLongPress={this.onLongPress}>
-        <View>
-          <Thumbnail
-            url={imageUrl}
-            titleText={title}
-            accentColor={accentColor}
-            style={styles.thumbnail}
-          />
-          <View style={styles.content}>
-            <Byline
-              author={author}
-              date={date}
-              location={location}
+      <View>
+        <TouchableOpacity style={style} onPress={onPress} onLongPress={this.onLongPress}>
+          <View>
+            <Thumbnail
+              url={imageUrl}
+              titleText={title}
+              accentColor={accentColor}
+              style={styles.thumbnail}
             />
-            <AppText>
-              {description}
-            </AppText>
+            <View style={styles.content}>
+              <Byline
+                author={author}
+                date={date}
+                location={location}
+              />
+              <AppText>
+                {description}
+              </AppText>
+            </View>
           </View>
-        </View>
-      </TouchableOpacity>
+        </TouchableOpacity>
+        <ActionSheet
+          ref={o => this.ActionSheet = o}
+          title={this.props.title}
+          options={['Bookmark', 'Cancel']}
+          cancelButtonIndex={1}
+          destructiveButtonIndex={2}
+          onPress={(buttonIndex) => {
+            if (buttonIndex === 0) {
+              this.props.onBookmark();
+            }
+          }}
+        />
+      </View>
     );
   }
 }

@@ -5,16 +5,11 @@ import {
   TextInput,
   StyleSheet
 } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
 
 import NewsFeed from './NewsFeed';
 import * as globalStyles from '../styles/global';
 
 class Search extends Component {
-  static navigationOptions = {
-    tabBarLabel: 'Search',
-    tabBarIcon: <Icon size={ 20 } name={ 'search' } color={ globalStyles.LINK_COLOR } />
-  }
 
   constructor(props) {
     super(props);
