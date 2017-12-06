@@ -10,7 +10,10 @@ const AppNavigator = StackNavigator({
     screen: ParentModalNavigator
   },
   intro: {
-    screen: IntroScreen
+    screen: IntroScreen,
+    navigationOptions: {
+      header: null
+    }
   },
   onboarding: {
     screen: Onboarding,

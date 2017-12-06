@@ -14,23 +14,33 @@ const OnboardingButtons = ({
   totalItems,
   currentIndex,
   movePrevious,
-  moveNext
+  moveNext,
+  moveFinal
 }) => (
   <View style={styles.container}>
     <LinkButton onPress={movePrevious} active={currentIndex > 0}>
       Previous
     </LinkButton>
-    <Button
-      onPress={moveNext}
-      active={currentIndex < totalItems - 1}
-    >
-      Next
-    </Button>
+    {currentIndex === totalItems -1 ? (
+      <Button
+        onPress={moveFinal}
+      >
+        Done
+      </Button>
+    ) : (
+      <Button
+        onPress={moveNext}
+        active={currentIndex < totalItems - 1}
+      >
+        Next
+      </Button>
+    )}
   </View> );
 
 OnboardingButtons.propTypes = {
   totalItems: PropTypes.number.isRequired,
   currentIndex: PropTypes.number.isRequired,
+  moveFinal: PropTypes.func.isRequired,
   movePrevious: PropTypes.func.isRequired,
   moveNext: PropTypes.func.isRequired
 };
