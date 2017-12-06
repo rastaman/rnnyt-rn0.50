@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  View
+  View,
+  LayoutAnimation
 } from 'react-native';
 
 import OnboardingButtons from './OnboardingButtons';
@@ -28,6 +29,7 @@ export default class Onboarding extends Component {
   }
 
   transitionToNextPanel(nextIndex) {
+    LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
     this.setState({
       currentIndex: nextIndex
     });
@@ -38,7 +40,14 @@ export default class Onboarding extends Component {
       <View style={styles.container}>
         <View style={styles.container}>
           <View style={styles.panelContainer}>
-            <OnboardingPanel {...onboardingContent[this.state.currentIndex]} />
+            {onboardingContent.map((panel, i) => (
+              <OnboardingPanel
+                key={i}
+                {...panel}
+                style={i !== this.state.currentIndex ? styles.hidden : undefined }
+              />
+            ))}
+            {/*<OnboardingPanel {...onboardingContent[this.state.currentIndex]} style={styles.hidden} />*/}
           </View>
           <OnboardingButtons
             totalItems={onboardingContent.length}
@@ -58,5 +67,9 @@ const styles = StyleSheet.create({
   panelContainer: {
     flex: 1,
     flexDirection: 'row'
+  },
+  hidden: {
+    width: 0,
+    flex: 0
   }
 });

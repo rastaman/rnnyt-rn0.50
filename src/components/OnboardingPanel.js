@@ -17,21 +17,25 @@ import {
 const MINIMUM_IMAGE_HEIGHT = 460;
 const IMAGE_SIZE = 300;
 
-const OnboardingPanel = ({ backgroundColor, message, uri, style }) => (
-  <View
-    style={[styles.panel, { backgroundColor }, style]}
-  >
-    <View style={styles.content}>
-      <AppText>{message}</AppText>
+const OnboardingPanel = ({ backgroundColor, message, uri, style }) => {
+  const mainViewStyle = [styles.panel, { backgroundColor }, style];
+  console.log('Main', mainViewStyle, 'Panel', styles.panel, 'Style', style);
+  return (
+    <View
+      style={mainViewStyle}
+    >
+      <View style={styles.content}>
+        <AppText>{message}</AppText>
+      </View>
+      <View style={styles.container}>
+        <Image
+          source={{ uri }}
+          style={{ width: IMAGE_SIZE, height: IMAGE_SIZE }}
+        />
+      </View>
     </View>
-    <View style={styles.container}>
-      <Image
-        source={{ uri }}
-        style={{ width: IMAGE_SIZE, height: IMAGE_SIZE }}
-      />
-    </View>
-  </View>
-);
+  );
+};
 
 OnboardingPanel.propTypes = {
   message: PropTypes.string.isRequired,
