@@ -45,7 +45,7 @@ class NewsFeed extends Component {
   }
 
   componentDidUpdate() {
-    console.log('Component did update');
+    //console.log('Component did update');
   }
 
   componentWillUnmount() {
@@ -85,7 +85,6 @@ class NewsFeed extends Component {
   }
 
   render() {
-    console.log('me',this);
     const {
       listStyles = globalStyles.COMMON_STYLES.pageContainer,
       showLoadingSpinner
