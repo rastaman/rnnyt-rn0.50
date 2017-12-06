@@ -29,14 +29,7 @@ export default class Onboarding extends Component {
   }
 
   transitionToNextPanel(nextIndex) {
-    LayoutAnimation.configureNext({
-      duration: 3000,
-      update: {
-        springDamping: 0.2,
-        type: LayoutAnimation.Types.spring,
-        property: LayoutAnimation.Properties.scaleXY
-      }
-    });
+    LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
     this.setState({
       currentIndex: nextIndex
     });
