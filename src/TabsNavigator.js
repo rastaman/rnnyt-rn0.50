@@ -8,6 +8,7 @@ import SearchContainer from './containers/SearchContainer';
 import BookmarksContainer from './containers/BookmarksContainer';
 import HomeScreen from './components/HomeScreen';
 import NewsDetail from './components/NewsDetail';
+import Profile from './components/Profile';
 
 import * as globalStyles from './styles/global';
 
@@ -43,6 +44,13 @@ const TabsNavigator = TabNavigator({
     navigationOptions: {
       tabBarLabel: 'Bookmark',
       tabBarIcon: <Icon size={ 20 } name={ 'bookmark' } color={ globalStyles.LINK_COLOR } />
+    }
+  },
+  profile: {
+    screen: Profile,
+    navigationOptions: {
+      tabBarLabel: 'Profile',
+      tabBarIcon: <Icon size={ 20 } name={ 'user' } color={ globalStyles.LINK_COLOR } />
     }
   }
 }, {
