@@ -16,14 +16,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  NSURL *jsCodeLocation;
 
-  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+  RCTRootView *rootView = nil;
 
-  RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                      moduleName:@"RNNYT"
-                                               initialProperties:nil
-                                                   launchOptions:launchOptions];
+  if ( false ) {
+    RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self
+                                             launchOptions:launchOptions];
+
+    rootView = [[RCTRootView alloc] initWithBridge:bridge
+                                                        moduleName:@"RNNYT"
+                                                 initialProperties:nil];
+  } else {
+    rootView = [[RCTRootView alloc] initWithBundleURL:[self sourceURLForBridge:nil]
+                                                        moduleName:@"RNNYT"
+                                                 initialProperties:nil
+                                                     launchOptions:launchOptions];
+  }
+
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -32,6 +41,19 @@
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   return YES;
+}
+
+- (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
+{
+  NSURL *jsCodeLocation;
+
+  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+
+  return jsCodeLocation;
+}
+
+- (BOOL)shouldBridgeUseCxxBridge:(RCTBridge *)bridge {
+  return NO;
 }
 
 @end

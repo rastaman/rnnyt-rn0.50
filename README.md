@@ -66,3 +66,20 @@ $ ./node_modules/.bin/jest --debug
 - [Cannot find module 'jest-cli' · Issue #2 · yoavniran/gulp-jest-jspm](https://github.com/yoavniran/gulp-jest-jspm/issues/2)
 - [Unexpected Token Import for ES6 modules · Issue #2081 · facebook/jest](https://github.com/facebook/jest/issues/2081)
 - [npm test always fails · Issue #199 · react-community/create-react-native-app](https://github.com/react-community/create-react-native-app/issues/199)
+
+## Performance
+
+### Systrace
+
+- [TypeError: global.nativeTraceBeginSection is not a function (Systrace) · Issue #15003 · facebook/react-native](https://github.com/facebook/react-native/issues/15003)
+
+- [[WIP] [Not for Merge] Disable ReactPerf and Update Systrace React Integration by gaearon · Pull Request #12797 · facebook/react-native](https://github.com/facebook/react-native/pull/12797)
+
+### Profiling in general
+
+- [React Native Performance Profiling · Issue #15371 · facebook/react-native](https://github.com/facebook/react-native/issues/15371)
+- [Plan for Addons in React 16 · Issue #9207 · facebook/react](https://github.com/facebook/react/issues/9207)
+
+## Fiber
+
+- [acdlite/react-fiber-architecture: A description of React's new core algorithm, React Fiber](https://github.com/acdlite/react-fiber-architecture)
