@@ -22,7 +22,7 @@ public class ImageLibraryManagerPackage implements ReactPackage {
         nativeModules.add(new ImageLibraryManager(reactContext));
         return nativeModules;
     }
-    
+
     @Override
     public List<ViewManager>  createViewManagers(ReactApplicationContext
                                                          reactContext) {

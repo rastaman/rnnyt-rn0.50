@@ -51,3 +51,18 @@ Tip: Set flex to 0 for the width to take effect.
 
 - [Animate Your React Native App](https://code.tutsplus.com/tutorials/working-with-animations-in-react-native--cms-27328)
 - [Guide de référence des fonctions d'easing](http://easings.net/fr)
+
+## Tests
+
+### Jest
+
+Debug:
+
+```sh
+$ ./node_modules/.bin/jest --debug
+...
+```
+
+- [Cannot find module 'jest-cli' · Issue #2 · yoavniran/gulp-jest-jspm](https://github.com/yoavniran/gulp-jest-jspm/issues/2)
+- [Unexpected Token Import for ES6 modules · Issue #2081 · facebook/jest](https://github.com/facebook/jest/issues/2081)
+- [npm test always fails · Issue #199 · react-community/create-react-native-app](https://github.com/react-community/create-react-native-app/issues/199)
