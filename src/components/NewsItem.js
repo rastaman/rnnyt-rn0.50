@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent, Component } from 'react';
 import PropTypes from 'prop-types';
 import {
   View,
@@ -11,7 +11,7 @@ import AppText from './AppText';
 import Thumbnail from './Thumbnail';
 import * as globalStyles from '../styles/global';
 
-export default class NewsItem extends Component {
+export default class NewsItem extends PureComponent {
 
   constructor(props) {
     super(props);

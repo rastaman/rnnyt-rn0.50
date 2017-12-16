@@ -80,6 +80,6 @@ $ ./node_modules/.bin/jest --debug
 - [React Native Performance Profiling · Issue #15371 · facebook/react-native](https://github.com/facebook/react-native/issues/15371)
 - [Plan for Addons in React 16 · Issue #9207 · facebook/react](https://github.com/facebook/react/issues/9207)
 
-## Fiber
+### Fiber
 
 - [acdlite/react-fiber-architecture: A description of React's new core algorithm, React Fiber](https://github.com/acdlite/react-fiber-architecture)

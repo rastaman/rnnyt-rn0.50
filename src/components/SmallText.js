@@ -1,16 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {
   StyleSheet,
-  Text
+  Text,
+  InteractionManager
 } from 'react-native';
 import AppText from './AppText';
 
-const SmallText = ({ children, style, ...rest }) => (
-  <AppText style={[styles.small, style]} {...rest}>
-    {children}
-  </AppText>
-);
+class SmallText extends Component {
+  constuctor(props) {
+    super(props);
+  }
+
+  render() {
+    const { children, style, ...rest } = this.props;
+    return (
+      <AppText style={[styles.small, style]} {...rest}>
+        {children}
+      </AppText>
+    );
+  }
+}
+//({ children, style, ...rest }) =>
 
 SmallText.propTypes = {
   children: PropTypes.node,

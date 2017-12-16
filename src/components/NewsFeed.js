@@ -120,6 +120,7 @@ class NewsFeed extends Component {
           dataSource={dataSource}
           renderRow={this.renderRow}
           style={this.props.listStyles}
+          initialListSize={4}
         />
       </View>
     );
