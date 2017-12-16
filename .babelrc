@@ -1,5 +1,16 @@
 {
   "presets": [
     "react-native"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@assets": "./assets"
+        },
+        "cwd": "babelrc"
+      }
+    ]
   ]
 }

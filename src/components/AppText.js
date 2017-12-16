@@ -10,8 +10,12 @@ const AppText = ({ children, style, ...rest }) => (
 );
 
 AppText.propTypes = {
-  style: Text.propTypes.style,
-  children: PropTypes.node
+  style: PropTypes.objectOf(PropTypes.any),
+  children: PropTypes.node.isRequired
+};
+
+AppText.defaultProps = {
+  style: null
 };
 
 export default AppText;

@@ -1,10 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  View,
-  Animated,
-  StyleSheet
-} from 'react-native';
+import { View, Animated, StyleSheet } from 'react-native';
 import { DEVICE_WIDTH } from '../config/device';
 
 const BAR_WIDTH = 250;
@@ -47,6 +43,10 @@ const OnboardingProgress = ({ totalItems, pan }) => (
 OnboardingProgress.propTypes = {
   totalItems: PropTypes.number.isRequired,
   pan: PropTypes.instanceOf(Animated.Value)
+};
+
+OnboardingProgress.defaultProps = {
+  pan: null
 };
 
 const styles = StyleSheet.create({

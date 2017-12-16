@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {
-  View,
-  StyleSheet
-} from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import Button from './Button';
 import LinkButton from './LinkButton';
 
@@ -21,21 +18,15 @@ const OnboardingButtons = ({
     <LinkButton onPress={movePrevious} active={currentIndex > 0}>
       Previous
     </LinkButton>
-    {currentIndex === totalItems -1 ? (
-      <Button
-        onPress={moveFinal}
-      >
-        Done
-      </Button>
+    {currentIndex === totalItems - 1 ? (
+      <Button onPress={moveFinal}>Done</Button>
     ) : (
-      <Button
-        onPress={moveNext}
-        active={currentIndex < totalItems - 1}
-      >
+      <Button onPress={moveNext} active={currentIndex < totalItems - 1}>
         Next
       </Button>
     )}
-  </View> );
+  </View>
+);
 
 OnboardingButtons.propTypes = {
   totalItems: PropTypes.number.isRequired,

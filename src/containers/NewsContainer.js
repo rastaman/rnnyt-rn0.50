@@ -5,22 +5,21 @@ import { allNewsSelector } from '../selectors/newsSelectors';
 import { addBookmark } from '../actions/bookmarkActions';
 import NewsFeed from '../components/NewsFeed';
 
-const mapStateToProps = state => {
-  //console.log('Received state', state);
-  return ({
+const mapStateToProps = state =>
+  // console.log('Received state', state);
+  ({
     news: allNewsSelector(state),
     redux: state
   });
-};
 
-const mapDispatchToProps = dispatch => {
-  //console.log('Received dispatch', dispatch);
-  return (
-    bindActionCreators({
+const mapDispatchToProps = dispatch =>
+  // console.log('Received dispatch', dispatch);
+  bindActionCreators(
+    {
       load: loadNews,
       addBookmark
-    }, dispatch)
+    },
+    dispatch
   );
-};
 
 export default connect(mapStateToProps, mapDispatchToProps)(NewsFeed);

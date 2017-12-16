@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {
-  View,
-  TextInput,
-  StyleSheet
-} from 'react-native';
+import { View, TextInput, StyleSheet } from 'react-native';
 
 import NewsFeed from './NewsFeed';
 import * as globalStyles from '../styles/global';
 
 class Search extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -29,10 +24,11 @@ class Search extends Component {
     return (
       <View style={globalStyles.COMMON_STYLES.pageContainer}>
         <View style={styles.search}>
-          <TextInput style={styles.input}
+          <TextInput
+            style={styles.input}
             onChangeText={this.searchNews}
             value={this.state.searchText}
-            placeholder={'Search'}
+            placeholder="Search"
             placeholderTextColor={globalStyles.MUTED_COLOR}
           />
         </View>
@@ -52,11 +48,14 @@ class Search extends Component {
 Search.propTypes = {
   filteredNews: PropTypes.arrayOf(PropTypes.object),
   searchNews: PropTypes.func.isRequired,
-  dispatch: PropTypes.func,
   addBookmark: PropTypes.func.isRequired,
   navigation: PropTypes.objectOf(PropTypes.any).isRequired,
-  screenProps: PropTypes.objectOf(PropTypes.any),
-  redux: PropTypes.objectOf(PropTypes.any)
+  screenProps: PropTypes.objectOf(PropTypes.any)
+};
+
+Search.defaultProps = {
+  filteredNews: null,
+  screenProps: null
 };
 
 const styles = StyleSheet.create({

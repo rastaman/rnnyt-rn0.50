@@ -27,6 +27,12 @@ After the app has been rebundled, it should not be needed to use the variable ag
 
 - [How-To: Setup Atom with Nuclide, ESLint & Flow - Jesper Lund](https://jesperln.dk/how-to-setup-atom-with-nuclide-eslint-flow/)
 
+### Eslint + Babel
+
+- [tleunen/eslint-import-resolver-babel-module: Custom eslint resolve for babel-plugin-module-resolver](https://github.com/tleunen/eslint-import-resolver-babel-module)
+- [benmosher/eslint-plugin-import: ESLint plugin with rules that help validate proper imports.](https://github.com/benmosher/eslint-plugin-import/)
+- [tleunen/babel-plugin-module-resolver: Custom module resolver plugin for Babel](https://github.com/tleunen/babel-plugin-module-resolver)
+
 ## Navigation
 
 - [Thousand Ways to Navigate in React Native – The React Native Log – Medium](https://medium.com/the-react-native-log/thousand-ways-to-navigate-in-react-native-f7a1e311a0e8)

@@ -6,11 +6,10 @@ import { TabsNavigator } from '../TabsNavigator';
 import * as globalStyles from '../styles/global';
 
 class HomeScreen extends Component {
-
   static navigationOptions = {
     headerTitle: 'RNNYT',
     headerStyle: { backgroundColor: globalStyles.MUTED_COLOR }
-  }
+  };
 
   render() {
     console.log('Tab current navigation', this.props.navigation);
@@ -21,7 +20,6 @@ class HomeScreen extends Component {
 }
 
 HomeScreen.propTypes = {
-  dispatch: PropTypes.func.isRequired,
   navigation: PropTypes.objectOf(PropTypes.any).isRequired
 };
 

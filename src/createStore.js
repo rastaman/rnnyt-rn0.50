@@ -10,7 +10,7 @@ import bookmarkReducer from './reducers/bookmarkReducer';
 
 const logger = createLogger();
 
-export default (initialState = {}) => (
+export default (initialState = {}) =>
   createStore(
     combineReducers({
       news: newsFeedReducer,
@@ -22,5 +22,4 @@ export default (initialState = {}) => (
     }),
     initialState,
     applyMiddleware(logger, promiseMiddleware)
-  )
-);
+  );

@@ -1,27 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  StyleSheet,
-  View
-} from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import SmallText from './SmallText';
 import * as globalStyles from '../styles/global';
 
 const Byline = ({ date, author, location }) => (
   <View>
     <View style={styles.row}>
-      <SmallText>
-        {date}
-      </SmallText>
-      <SmallText>
-        {author}
-      </SmallText>
+      <SmallText>{date}</SmallText>
+      <SmallText>{author}</SmallText>
     </View>
     {location ? (
       <View style={styles.row}>
-        <SmallText style={styles.location}>
-          {location}
-        </SmallText>
+        <SmallText style={styles.location}>{location}</SmallText>
       </View>
     ) : null}
   </View>
@@ -31,6 +22,10 @@ Byline.propTypes = {
   date: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
   location: PropTypes.string
+};
+
+Byline.defaultProps = {
+  location: null
 };
 
 const styles = StyleSheet.create({

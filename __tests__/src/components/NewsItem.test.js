@@ -1,12 +1,14 @@
-import 'react-native';
 import React from 'react';
-import NewsItem from '../../../src/components/NewsItem';
+import 'react-native';
 import renderer from 'react-test-renderer';
 import expect from 'expect';
 
+import NewsItem from '../../../src/components/NewsItem';
+
 const noop = () => {};
 const testData = {
-  description: 'React Native, the framework for building mobile applications with web technologies, is expanding to new platforms.',
+  description:
+    'React Native, the framework for building mobile applications with web technologies, is expanding to new platforms.',
   author: 'JACOB FRIEDMANN',
   location: '',
   imageUrl: 'https://example.com/image.jpg',
@@ -19,12 +21,9 @@ const testData = {
 
 describe('NewsItem component', () => {
   it('should render correctly', () => {
-    const renderedComponent = renderer.create(
-      <NewsItem
-        index={0}
-        {...testData}
-      />
-    ).toJSON();
+    const renderedComponent = renderer
+      .create(<NewsItem index={0} {...testData} />)
+      .toJSON();
     expect(renderedComponent).toMatchSnapshot();
   });
 });

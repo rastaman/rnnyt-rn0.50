@@ -4,22 +4,21 @@ import { bookmarkedNewsSelector } from '../selectors/newsSelectors';
 import { loadBookmarks, addBookmark } from '../actions/bookmarkActions';
 import NewsFeed from '../components/NewsFeed';
 
-const mapStateToProps = state => {
-  //console.log('Received state', state);
-  return ({
+const mapStateToProps = state =>
+  // console.log('Received state', state);
+  ({
     news: bookmarkedNewsSelector(state),
     redux: state
   });
-};
 
-const mapDispatchToProps = dispatch => {
-  //console.log('Received dispatch', dispatch);
-  return (
-    bindActionCreators({
+const mapDispatchToProps = dispatch =>
+  // console.log('Received dispatch', dispatch);
+  bindActionCreators(
+    {
       load: loadBookmarks,
       addBookmark
-    }, dispatch)
+    },
+    dispatch
   );
-};
 
 export default connect(mapStateToProps, mapDispatchToProps)(NewsFeed);

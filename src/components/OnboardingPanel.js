@@ -1,18 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {
-  View,
-  Image,
-  StyleSheet
-} from 'react-native';
+import { View, Image, StyleSheet } from 'react-native';
 import AppText from './AppText';
 
 import { LIGHT_OVERLAY_COLOR } from '../styles/global';
-import {
-  DEVICE_HEIGHT,
-  DEVICE_WIDTH
-} from '../config/device';
+import { DEVICE_HEIGHT, DEVICE_WIDTH } from '../config/device';
 
 const MINIMUM_IMAGE_HEIGHT = 460;
 const IMAGE_SIZE = 300;
@@ -20,9 +13,7 @@ const IMAGE_SIZE = 300;
 const OnboardingPanel = ({ backgroundColor, message, uri, style }) => {
   const mainViewStyle = [styles.panel, { backgroundColor }, style];
   return (
-    <View
-      style={mainViewStyle}
-    >
+    <View style={mainViewStyle}>
       <View style={styles.content}>
         <AppText>{message}</AppText>
       </View>
@@ -43,8 +34,12 @@ OnboardingPanel.propTypes = {
   style: View.propTypes.style
 };
 
+OnboardingPanel.defaultProps = {
+  style: null
+};
+
 const calcTextContainerMaxHeight = (deviceHeight, minImageHeight) => {
-  if ((deviceHeight - minImageHeight) < (deviceHeight * 0.25)) {
+  if (deviceHeight - minImageHeight < deviceHeight * 0.25) {
     return deviceHeight - minImageHeight;
   }
   return undefined;
@@ -69,7 +64,7 @@ const styles = StyleSheet.create({
     padding: 20,
     marginBottom: 10,
     backgroundColor: LIGHT_OVERLAY_COLOR,
-    maxHeight: calcTextContainerMaxHeight(DEVICE_HEIGHT,MINIMUM_IMAGE_HEIGHT)
+    maxHeight: calcTextContainerMaxHeight(DEVICE_HEIGHT, MINIMUM_IMAGE_HEIGHT)
   }
 });
 

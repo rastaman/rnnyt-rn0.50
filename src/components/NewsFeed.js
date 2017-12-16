@@ -15,7 +15,6 @@ import AppText from './AppText';
 import * as globalStyles from '../styles/global';
 
 class NewsFeed extends Component {
-
   constructor(props) {
     super(props);
     this.ds = new ListView.DataSource({
@@ -33,7 +32,10 @@ class NewsFeed extends Component {
   }
 
   componentWillMount() {
-    NetInfo.isConnected.addEventListener('connectionChange', this.handleConnectivityChange);
+    NetInfo.isConnected.addEventListener(
+      'connectionChange',
+      this.handleConnectivityChange
+    );
     this.refresh();
   }
 
@@ -45,11 +47,14 @@ class NewsFeed extends Component {
   }
 
   componentDidUpdate() {
-    //console.log('Component did update');
+    // console.log('Component did update');
   }
 
   componentWillUnmount() {
-    NetInfo.isConnected.removeEventListener('change', this.handleConnectivityChange);
+    NetInfo.isConnected.removeEventListener(
+      'change',
+      this.handleConnectivityChange
+    );
   }
 
   handleConnectivityChange(isConnected) {
@@ -60,7 +65,6 @@ class NewsFeed extends Component {
       this.refresh();
     }
   }
-
 
   refresh() {
     if (this.props.load) {
@@ -75,10 +79,10 @@ class NewsFeed extends Component {
       <NewsItem
         style={styles.newsItem}
         index={index}
-        onPress={() => {
-          return rootNavigation.navigate('detail', { modalUrl: rowData.url });
-        }}
-        onBookmark={() => this.props.addBookmark( rowData.url )}
+        onPress={() =>
+          rootNavigation.navigate('detail', { modalUrl: rowData.url })
+        }
+        onBookmark={() => this.props.addBookmark(rowData.url)}
         {...rowData}
       />
     );
@@ -92,7 +96,12 @@ class NewsFeed extends Component {
     const { initialLoading, refreshing, dataSource } = this.state;
     if (!this.state.connected) {
       return (
-        <View style={[globalStyles.COMMON_STYLES.pageContainer, styles.loadingContainer]}>
+        <View
+          style={[
+            globalStyles.COMMON_STYLES.pageContainer,
+            styles.loadingContainer
+          ]}
+        >
           <AppText>No Connection</AppText>
         </View>
       );
@@ -100,11 +109,7 @@ class NewsFeed extends Component {
     if (initialLoading && showLoadingSpinner) {
       return (
         <View style={[listStyles, styles.loadingContainer]}>
-          <ActivityIndicator
-            animating={true}
-            size="small"
-            {...this.props}
-          />
+          <ActivityIndicator animating size="small" {...this.props} />
         </View>
       );
     }
@@ -112,11 +117,9 @@ class NewsFeed extends Component {
       <View style={styles.container}>
         <ListView
           refreshControl={
-            <RefreshControl
-              refreshing={refreshing}
-              onRefresh={this.refresh}
-            /> }
-          enableEmptySections={true}
+            <RefreshControl refreshing={refreshing} onRefresh={this.refresh} />
+          }
+          enableEmptySections
           dataSource={dataSource}
           renderRow={this.renderRow}
           style={this.props.listStyles}
@@ -129,7 +132,7 @@ class NewsFeed extends Component {
 
 NewsFeed.propTypes = {
   news: PropTypes.arrayOf(PropTypes.object),
-  listStyles: View.propTypes.style,
+  listStyles: PropTypes.objectOf(PropTypes.any),
   load: PropTypes.func,
   showLoadingSpinner: PropTypes.bool,
   navigation: PropTypes.objectOf(PropTypes.any).isRequired,
@@ -138,7 +141,11 @@ NewsFeed.propTypes = {
 };
 
 NewsFeed.defaultProps = {
-  showLoadingSpinner: true
+  showLoadingSpinner: true,
+  news: [],
+  listStyles: null,
+  load: null,
+  screenProps: null
 };
 
 const styles = StyleSheet.create({

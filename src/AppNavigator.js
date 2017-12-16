@@ -4,27 +4,28 @@ import IntroScreen from './components/IntroScreen';
 import Onboarding from './components/Onboarding';
 import { ParentModalNavigator } from './TabsNavigator';
 
-
-const AppNavigator = StackNavigator({
-  home: {
-    screen: ParentModalNavigator
-  },
-  intro: {
-    screen: IntroScreen,
-    navigationOptions: {
-      header: null
+const AppNavigator = StackNavigator(
+  {
+    home: {
+      screen: ParentModalNavigator
+    },
+    intro: {
+      screen: IntroScreen,
+      navigationOptions: {
+        header: null
+      }
+    },
+    onboarding: {
+      screen: Onboarding,
+      navigationOptions: {
+        header: null
+      }
     }
   },
-  onboarding: {
-    screen: Onboarding,
-    navigationOptions: {
-      header: null
-    }
+  {
+    mode: 'card',
+    headerMode: 'screen'
   }
-},
-{
-  mode: 'card',
-  headerMode: 'screen'
-});
+);
 
 export default AppNavigator;

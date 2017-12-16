@@ -1,22 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  StyleSheet,
-  View
-} from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 const CollapsibleView = ({ children, style, hide }) => (
   <View style={[styles.container, hide ? styles.hidden : {}]}>
-    <View style={[styles.absoluteContainer, style]}>
-      {children}
-    </View>
+    <View style={[styles.absoluteContainer, style]}>{children}</View>
   </View>
 );
 
 CollapsibleView.propTypes = {
-  style: View.propTypes.style,
+  style: PropTypes.objectOf(PropTypes.any),
   hide: PropTypes.bool.isRequired,
-  children: PropTypes.node
+  children: PropTypes.node.isRequired
+};
+
+CollapsibleView.defaultProps = {
+  style: null
 };
 
 const styles = StyleSheet.create({

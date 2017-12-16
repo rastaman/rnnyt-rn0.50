@@ -1,10 +1,6 @@
-import React, { PureComponent, Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import {
-  View,
-  TouchableOpacity,
-  StyleSheet
-} from 'react-native';
+import { View, TouchableOpacity, StyleSheet } from 'react-native';
 import ActionSheet from 'react-native-actionsheet';
 import Byline from './Byline';
 import AppText from './AppText';
@@ -12,7 +8,6 @@ import Thumbnail from './Thumbnail';
 import * as globalStyles from '../styles/global';
 
 export default class NewsItem extends PureComponent {
-
   constructor(props) {
     super(props);
     this.onLongPress = this.onLongPress.bind(this);
@@ -33,13 +28,18 @@ export default class NewsItem extends PureComponent {
       description,
       onPress
     } = this.props;
-    const accentColor = globalStyles.ACCENT_COLORS[
-      this.props.index % globalStyles.ACCENT_COLORS.length
-    ];
+    const accentColor =
+      globalStyles.ACCENT_COLORS[
+        this.props.index % globalStyles.ACCENT_COLORS.length
+      ];
 
     return (
       <View>
-        <TouchableOpacity style={style} onPress={onPress} onLongPress={this.onLongPress}>
+        <TouchableOpacity
+          style={style}
+          onPress={onPress}
+          onLongPress={this.onLongPress}
+        >
           <View>
             <Thumbnail
               url={imageUrl}
@@ -48,24 +48,20 @@ export default class NewsItem extends PureComponent {
               style={styles.thumbnail}
             />
             <View style={styles.content}>
-              <Byline
-                author={author}
-                date={date}
-                location={location}
-              />
-              <AppText>
-                {description}
-              </AppText>
+              <Byline author={author} date={date} location={location} />
+              <AppText>{description}</AppText>
             </View>
           </View>
         </TouchableOpacity>
         <ActionSheet
-          ref={o => this.ActionSheet = o}
+          ref={o => {
+            this.ActionSheet = o;
+          }}
           title={this.props.title}
           options={['Bookmark', 'Cancel']}
           cancelButtonIndex={1}
           destructiveButtonIndex={2}
-          onPress={(buttonIndex) => {
+          onPress={buttonIndex => {
             if (buttonIndex === 0) {
               this.props.onBookmark();
             }
@@ -86,7 +82,14 @@ NewsItem.propTypes = {
   index: PropTypes.number.isRequired,
   onPress: PropTypes.func.isRequired,
   onBookmark: PropTypes.func.isRequired,
-  style: View.propTypes.style
+  style: PropTypes.objectOf(PropTypes.any)
+};
+
+NewsItem.defaultProps = {
+  imageUrl: null,
+  description: null,
+  location: null,
+  style: null
 };
 
 const styles = StyleSheet.create({

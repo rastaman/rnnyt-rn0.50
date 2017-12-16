@@ -1,9 +1,9 @@
-import { reshapeNewsData } from '../../../src/util/dataTransformations';
-
 import fs from 'fs';
 import expect from 'expect';
 
-const testData = JSON.parse(fs.readFileSync(__dirname + '/testData.json'));
+import { reshapeNewsData } from '../../../src/util/dataTransformations';
+
+const testData = JSON.parse(fs.readFileSync(`${__dirname}/testData.json`));
 
 describe('dataTransformations util', () => {
   describe('reshapeNewsData function', () => {
@@ -11,7 +11,8 @@ describe('dataTransformations util', () => {
       const transformedData = reshapeNewsData(testData);
       expect(transformedData).toEqual([
         {
-          description: 'React Native, the framework for building mobile applications with web technologies, is expanding to new platforms.',
+          description:
+            'React Native, the framework for building mobile applications with web technologies, is expanding to new platforms.',
           author: 'JACOB FRIEDMANN',
           location: '',
           imageUrl: 'https://example.com/image.jpg',

@@ -1,23 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  View,
-  StyleSheet
-} from 'react-native';
+import { StyleSheet } from 'react-native';
 import Button from './Button';
 
 const LinkButton = ({ style, children, ...rest }) => (
-  <Button
-    {...rest}
-    style={[styles.button, style]}
-  >
+  <Button {...rest} style={[styles.button, style]}>
     {children}
   </Button>
 );
 
 LinkButton.propTypes = {
-  style: View.propTypes.style,
-  children: PropTypes.node
+  style: PropTypes.objectOf(PropTypes.any),
+  children: PropTypes.node.isRequired
+};
+
+LinkButton.defaultProps = {
+  style: null
 };
 
 const styles = StyleSheet.create({

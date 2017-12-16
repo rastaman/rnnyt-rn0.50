@@ -1,12 +1,12 @@
 import { createSelector } from 'reselect';
-import { reshapeNewsData, filterNewsBySearchTerm } from '../util/dataTransformations';
+import {
+  reshapeNewsData,
+  filterNewsBySearchTerm
+} from '../util/dataTransformations';
 
 const newsSelector = state => state.news;
 
-const reshapeNewsSelector = createSelector(
-  [newsSelector],
-  reshapeNewsData
-);
+const reshapeNewsSelector = createSelector([newsSelector], reshapeNewsData);
 
 export const allNewsSelector = createSelector(
   [reshapeNewsSelector],
@@ -30,8 +30,10 @@ const bookmarksSelector = state => state.bookmarks;
 export const bookmarkedNewsSelector = createSelector(
   [allNewsSelector, bookmarksSelector],
   (newsItems, bookmarks) => {
-    const ret = newsItems.filter(newsItem => bookmarks.indexOf(newsItem.url) > -1);
-    console.log('Bookmarks',bookmarks,'Items',newsItems,'ret',ret);
+    const ret = newsItems.filter(
+      newsItem => bookmarks.indexOf(newsItem.url) > -1
+    );
+    console.log('Bookmarks', bookmarks, 'Items', newsItems, 'ret', ret);
     return ret;
   }
 );

@@ -1,17 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {
-  StyleSheet,
-  Text,
-  InteractionManager
-} from 'react-native';
+import { StyleSheet, TextStylePropTypes } from 'react-native';
 import AppText from './AppText';
 
 class SmallText extends Component {
-  constuctor(props) {
-    super(props);
-  }
-
   render() {
     const { children, style, ...rest } = this.props;
     return (
@@ -21,11 +13,14 @@ class SmallText extends Component {
     );
   }
 }
-//({ children, style, ...rest }) =>
 
 SmallText.propTypes = {
-  children: PropTypes.node,
-  style: Text.propTypes.style
+  children: PropTypes.node.isRequired,
+  style: TextStylePropTypes
+};
+
+SmallText.defaultProps = {
+  style: null
 };
 
 const styles = StyleSheet.create({

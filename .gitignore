@@ -57,3 +57,6 @@ src/config/nytApiKey.js
 
 # Don't fix the packages version for this exercise
 package-lock.json
+
+# Don't commit the project xcode with the team id - fix to commit but not include personal informations
+ios/RNNYT.xcodeproj/project.pbxproj

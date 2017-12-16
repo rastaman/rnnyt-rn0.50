@@ -17,7 +17,6 @@ import * as globalStyles from '../styles/global';
 const { ImageLibraryManager } = NativeModules;
 
 export default class Profile extends Component {
-
   constructor(props) {
     super(props);
     this.state = {};
@@ -45,7 +44,7 @@ export default class Profile extends Component {
   }
 
   onSelectImage() {
-    ImageLibraryManager.selectImage((url) => {
+    ImageLibraryManager.selectImage(url => {
       this.setState({
         profileImageUrl: url
       });
@@ -53,7 +52,7 @@ export default class Profile extends Component {
   }
 
   onSelectImagePromise() {
-    ImageLibraryManager.selectImagePromise().then((url) => {
+    ImageLibraryManager.selectImagePromise().then(url => {
       this.setState({
         profileImageUrl: url
       });
@@ -69,20 +68,15 @@ export default class Profile extends Component {
         />
       );
     }
-    return (
-      <Icon
-        name="user"
-        style={styles.avatarIcon}
-      />
-    );
+    return <Icon name="user" style={styles.avatarIcon} />;
   }
 
   render() {
     return (
-      <View style={[globalStyles.COMMON_STYLES.pageContainer, styles.container]}>
-        <TouchableOpacity
-          onPress={this.onSelectImagePromise}
-        >
+      <View
+        style={[globalStyles.COMMON_STYLES.pageContainer, styles.container]}
+      >
+        <TouchableOpacity onPress={this.onSelectImagePromise}>
           {this.renderProfileImage()}
         </TouchableOpacity>
         <Title>Username</Title>

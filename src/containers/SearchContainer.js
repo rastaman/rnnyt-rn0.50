@@ -8,15 +8,16 @@ import Search from '../components/Search';
 
 const mapStateToProps = state => ({
   filteredNews: searchNewsSelector(state),
-  //navigation: state.navigation,
   redux: state
 });
 
-const mapDispatchToProps = dispatch => (
-  bindActionCreators({
-    searchNews,
-    addBookmark
-  }, dispatch)
-);
+const mapDispatchToProps = dispatch =>
+  bindActionCreators(
+    {
+      searchNews,
+      addBookmark
+    },
+    dispatch
+  );
 
 export default connect(mapStateToProps, mapDispatchToProps)(Search);

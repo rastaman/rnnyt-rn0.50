@@ -1,12 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {
-  TouchableOpacity,
-  View,
-  Text,
-  StyleSheet
-} from 'react-native';
+import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 
 const BORDER_COLOR = '#fff';
 const BG_COLOR = 'transparent';
@@ -28,13 +23,14 @@ const Button = ({ style, active, onPress, children, ...rest }) => (
 
 Button.propTypes = {
   active: PropTypes.bool,
-  style: View.propTypes.style,
-  onPress: PropTypes.func,
-  children: PropTypes.node
+  style: PropTypes.objectOf(PropTypes.any),
+  onPress: PropTypes.func.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 Button.defaultProps = {
-  active: true
+  active: true,
+  style: null
 };
 
 const styles = StyleSheet.create({

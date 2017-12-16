@@ -6,12 +6,13 @@ import PropTypes from 'prop-types';
 import AppNavigator from '../AppNavigator';
 
 class Nav extends Component {
-
   render() {
-    //console.log('Nav props', this.props);
     return (
       <AppNavigator
-        navigation={addNavigationHelpers({dispatch: this.props.dispatch, state: this.props.navigation})}
+        navigation={addNavigationHelpers({
+          dispatch: this.props.dispatch,
+          state: this.props.navigation
+        })}
       />
     );
   }
@@ -19,7 +20,7 @@ class Nav extends Component {
 
 Nav.propTypes = {
   dispatch: PropTypes.func.isRequired,
-  navigation: PropTypes.objectOf(PropTypes.any)
+  navigation: PropTypes.objectOf(PropTypes.any).isRequired
 };
 
 const mapStateToProps = state => ({
@@ -31,7 +32,4 @@ const mapDispatchToProps = dispatch => ({
   dispatch
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Nav);
+export default connect(mapStateToProps, mapDispatchToProps)(Nav);

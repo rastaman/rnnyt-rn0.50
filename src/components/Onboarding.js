@@ -39,7 +39,7 @@ export default class Onboarding extends Component {
 
   componentWillMount() {
     this.dragPosition = 0;
-    this.panListener = this.state.pan.addListener((value) => {
+    this.panListener = this.state.pan.addListener(value => {
       this.dragPosition = value.value;
     });
     this.panResponder = PanResponder.create({
@@ -51,21 +51,30 @@ export default class Onboarding extends Component {
       onPanResponderMove: (e, gestureState) => {
         this.state.pan.setValue(gestureState.dx);
       },
-      onPanResponderRelease: (e) => {
-        const movedLeft = e.nativeEvent.pageX < (DEVICE_WIDTH / 2);
+      onPanResponderRelease: e => {
+        const movedLeft = e.nativeEvent.pageX < DEVICE_WIDTH / 2;
         let updateState = false;
-        let toValue = (movedLeft ? DEVICE_WIDTH * (this.state.currentIndex + 1) * -1 :
-          DEVICE_WIDTH * (this.state.currentIndex - 1) * -1);
+        let toValue = movedLeft
+          ? DEVICE_WIDTH * (this.state.currentIndex + 1) * -1
+          : DEVICE_WIDTH * (this.state.currentIndex - 1) * -1;
         if (toValue > 0) {
           toValue = 0;
-        } else if (toValue < ((DEVICE_WIDTH * onboardingContent.length) - DEVICE_WIDTH) * -1) {
-          toValue = ((DEVICE_WIDTH * onboardingContent.length) - DEVICE_WIDTH) * -1;
+        } else if (
+          toValue <
+          (DEVICE_WIDTH * onboardingContent.length - DEVICE_WIDTH) * -1
+        ) {
+          toValue =
+            (DEVICE_WIDTH * onboardingContent.length - DEVICE_WIDTH) * -1;
         } else {
           updateState = true;
         }
         this.state.pan.flattenOffset();
         if (updateState) {
-          this.transitionToNextPanel(movedLeft ? this.state.currentIndex + 1 : this.state.currentIndex - 1);
+          this.transitionToNextPanel(
+            movedLeft
+              ? this.state.currentIndex + 1
+              : this.state.currentIndex - 1
+          );
         } else {
           Animated.spring(this.state.pan, {
             velocity: 0.5,
@@ -121,7 +130,10 @@ export default class Onboarding extends Component {
         <CollapsibleView
           style={[
             styles.container,
-            { backgroundColor: onboardingContent[this.state.currentIndex].backgroundColor }
+            {
+              backgroundColor:
+                onboardingContent[this.state.currentIndex].backgroundColor
+            }
           ]}
           hide={this.state.isDone}
         >
@@ -131,9 +143,11 @@ export default class Onboarding extends Component {
               styles.panelContainer,
               { width: DEVICE_WIDTH * onboardingContent.length },
               {
-                transform: [{
-                  translateX: this.state.pan
-                }]
+                transform: [
+                  {
+                    translateX: this.state.pan
+                  }
+                ]
               }
             ]}
           >
@@ -156,7 +170,8 @@ export default class Onboarding extends Component {
         <CollapsibleView hide={!this.state.isDone} style={styles.doneContainer}>
           <AppText style={styles.doneText}>Let's read the news!</AppText>
         </CollapsibleView>
-      </View>);
+      </View>
+    );
   }
 }
 

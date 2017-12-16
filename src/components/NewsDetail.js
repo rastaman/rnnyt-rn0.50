@@ -10,10 +10,10 @@ import {
 import SmallText from './SmallText';
 import * as globalStyles from '../styles/global';
 
-class NewsDetail extends React.Component{
+class NewsDetail extends React.Component {
   static navigationOptions = {
     header: null
-  }
+  };
 
   render() {
     const { navigation } = this.props;
@@ -28,15 +28,14 @@ class NewsDetail extends React.Component{
             <SmallText>Open in Browser</SmallText>
           </TouchableOpacity>
         </View>
-        <WebView scalesPageToFit={true} source={{ uri: modalUrl }} />
+        <WebView scalesPageToFit source={{ uri: modalUrl }} />
       </View>
     );
   }
-
 }
 
 NewsDetail.propTypes = {
-  navigation: PropTypes.objectOf(PropTypes.any)
+  navigation: PropTypes.objectOf(PropTypes.any).isRequired
 };
 
 const styles = StyleSheet.create({
