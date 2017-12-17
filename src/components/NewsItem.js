@@ -82,7 +82,11 @@ NewsItem.propTypes = {
   index: PropTypes.number.isRequired,
   onPress: PropTypes.func.isRequired,
   onBookmark: PropTypes.func.isRequired,
-  style: PropTypes.objectOf(PropTypes.any)
+  style: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.object,
+    PropTypes.array
+  ])
 };
 
 NewsItem.defaultProps = {

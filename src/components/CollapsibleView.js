@@ -9,7 +9,11 @@ const CollapsibleView = ({ children, style, hide }) => (
 );
 
 CollapsibleView.propTypes = {
-  style: PropTypes.objectOf(PropTypes.any),
+  style: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.object,
+    PropTypes.array
+  ]),
   hide: PropTypes.bool.isRequired,
   children: PropTypes.node.isRequired
 };

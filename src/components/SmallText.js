@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { StyleSheet, TextStylePropTypes } from 'react-native';
+import { StyleSheet } from 'react-native';
 import AppText from './AppText';
 
 class SmallText extends Component {
@@ -16,7 +16,11 @@ class SmallText extends Component {
 
 SmallText.propTypes = {
   children: PropTypes.node.isRequired,
-  style: TextStylePropTypes
+  style: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.object,
+    PropTypes.array
+  ])
 };
 
 SmallText.defaultProps = {

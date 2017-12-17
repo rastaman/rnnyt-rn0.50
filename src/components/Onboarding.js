@@ -168,7 +168,7 @@ export default class Onboarding extends Component {
           />
         </CollapsibleView>
         <CollapsibleView hide={!this.state.isDone} style={styles.doneContainer}>
-          <AppText style={styles.doneText}>Let's read the news!</AppText>
+          <AppText style={styles.doneText}>Let&apos;s read the news!</AppText>
         </CollapsibleView>
       </View>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StyleSheet, TextStylePropTypes } from 'react-native';
+import { StyleSheet } from 'react-native';
 import AppText from './AppText';
 import * as globalStyles from '../styles/global';
 
@@ -9,7 +9,11 @@ const Title = ({ style, children }) => (
 );
 
 Title.propTypes = {
-  style: TextStylePropTypes,
+  style: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.object,
+    PropTypes.array
+  ]),
   children: PropTypes.node.isRequired
 };
 

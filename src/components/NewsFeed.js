@@ -132,7 +132,11 @@ class NewsFeed extends Component {
 
 NewsFeed.propTypes = {
   news: PropTypes.arrayOf(PropTypes.object),
-  listStyles: PropTypes.objectOf(PropTypes.any),
+  listStyles: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.object,
+    PropTypes.array
+  ]),
   load: PropTypes.func,
   showLoadingSpinner: PropTypes.bool,
   navigation: PropTypes.objectOf(PropTypes.any).isRequired,

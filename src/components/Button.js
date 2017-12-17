@@ -23,7 +23,11 @@ const Button = ({ style, active, onPress, children, ...rest }) => (
 
 Button.propTypes = {
   active: PropTypes.bool,
-  style: PropTypes.objectOf(PropTypes.any),
+  style: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.object,
+    PropTypes.array
+  ]),
   onPress: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired
 };

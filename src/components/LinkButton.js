@@ -10,7 +10,11 @@ const LinkButton = ({ style, children, ...rest }) => (
 );
 
 LinkButton.propTypes = {
-  style: PropTypes.objectOf(PropTypes.any),
+  style: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.object,
+    PropTypes.array
+  ]),
   children: PropTypes.node.isRequired
 };
 
