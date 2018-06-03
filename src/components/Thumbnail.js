@@ -23,7 +23,11 @@ const Thumbnail = ({ url, titleText, accentColor, style }) => {
 };
 
 Thumbnail.propTypes = {
-  style: PropTypes.objectOf(PropTypes.any),
+  style: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.object,
+    PropTypes.array
+  ]),
   url: PropTypes.string.isRequired,
   titleText: PropTypes.string,
   accentColor: PropTypes.string.isRequired
