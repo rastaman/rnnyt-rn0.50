@@ -1,17 +1,3 @@
 {
-  "presets": [
-    "react-native"
-  ],
-  "plugins": [
-    [
-      "module-resolver",
-      {
-        "alias": {
-          "@assets": "./assets",
-          "@ui": "./src/ui"
-        },
-        "cwd": "babelrc"
-      }
-    ]
-  ]
+  "presets": ["module:metro-react-native-babel-preset"]
 }

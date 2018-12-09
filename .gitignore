@@ -52,11 +52,7 @@ buck-out/
 */fastlane/Preview.html
 */fastlane/screenshots
 
-# Don't store the NYT api key on github
-src/config/nytApiKey.js
+# Bundle artifact
+*.jsbundle
 
-# Don't fix the packages version for this exercise
-package-lock.json
-
-# Don't commit the project xcode with the team id - fix to commit but not include personal informations
-ios/RNNYT.xcodeproj/project.pbxproj
+src/config/nytApiKey.js 

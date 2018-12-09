@@ -1,6 +1,11 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import { createLogger } from 'redux-logger';
 import promiseMiddleware from 'redux-promise';
+import {
+  reduxifyNavigator,
+  createReactNavigationReduxMiddleware
+} from 'react-navigation-redux-helpers';
+
 import newsFeedReducer from './reducers/newsFeedReducer';
 import navigationReducer from './reducers/navigationReducer';
 import tabsNavigationReducer from './reducers/tabsNavigationReducer';
@@ -10,16 +15,24 @@ import bookmarkReducer from './reducers/bookmarkReducer';
 
 const logger = createLogger();
 
+// Note: createReactNavigationReduxMiddleware must be run before reduxifyNavigator
+const navigationMiddleware = createReactNavigationReduxMiddleware(
+  'root',
+  state => state.nav
+);
+
+const appReducer = combineReducers({
+  news: newsFeedReducer,
+  searchTerm: searchTermReducer,
+  nav: navigationReducer,
+  tabs: tabsNavigationReducer,
+  modal: modalNavigationReducer,
+  bookmarks: bookmarkReducer
+});
+
 export default (initialState = {}) =>
   createStore(
-    combineReducers({
-      news: newsFeedReducer,
-      searchTerm: searchTermReducer,
-      nav: navigationReducer,
-      tabs: tabsNavigationReducer,
-      modal: modalNavigationReducer,
-      bookmarks: bookmarkReducer
-    }),
+    appReducer,
     initialState,
-    applyMiddleware(logger, promiseMiddleware)
+    applyMiddleware(logger, promiseMiddleware, navigationMiddleware)
   );

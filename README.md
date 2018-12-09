@@ -27,6 +27,11 @@ After the app has been rebundled, it should not be needed to use the variable ag
 
 - [How-To: Setup Atom with Nuclide, ESLint & Flow - Jesper Lund](https://jesperln.dk/how-to-setup-atom-with-nuclide-eslint-flow/)
 
+### VSCode
+
+- [React Native Tools - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
+- [vscode-react-native/tasks.md at master · Microsoft/vscode-react-native](https://github.com/Microsoft/vscode-react-native/blob/master/doc/tasks.md)
+
 ### Eslint + Babel
 
 - [tleunen/eslint-import-resolver-babel-module: Custom eslint resolve for babel-plugin-module-resolver](https://github.com/tleunen/eslint-import-resolver-babel-module)

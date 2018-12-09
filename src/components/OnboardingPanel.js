@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { View, Image, StyleSheet } from 'react-native';
+import { View, Image, StyleSheet, ViewPropTypes } from 'react-native';
 import AppText from './AppText';
 
 import { LIGHT_OVERLAY_COLOR } from '../styles/global';
@@ -31,7 +31,7 @@ OnboardingPanel.propTypes = {
   message: PropTypes.string.isRequired,
   backgroundColor: PropTypes.string.isRequired,
   uri: PropTypes.string.isRequired,
-  style: View.propTypes.style
+  style: ViewPropTypes.style
 };
 
 OnboardingPanel.defaultProps = {

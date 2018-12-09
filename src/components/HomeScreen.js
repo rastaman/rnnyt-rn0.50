@@ -14,7 +14,10 @@ class HomeScreen extends Component {
   render() {
     console.log('Tab current navigation', this.props.navigation);
     return (
-      <TabsNavigator screenProps={{ rootNavigation: this.props.navigation }} />
+      <TabsNavigator
+        screenProps={{ rootNavigation: this.props.navigation }}
+        navigation={this.props.navigation}
+      />
     );
   }
 }

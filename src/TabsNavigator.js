@@ -1,10 +1,9 @@
 import React from 'react';
 import {
-  TabNavigator,
-  StackNavigator,
-  DrawerNavigator
+  createBottomTabNavigator,
+  createStackNavigator
 } from 'react-navigation';
-
+import { createDrawerNavigator } from 'react-navigation-drawer';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import NewsContainer from './containers/NewsContainer';
@@ -16,7 +15,7 @@ import Profile from './components/Profile';
 
 import * as globalStyles from './styles/global';
 
-const ParentModalNavigator = StackNavigator(
+const ParentModalNavigator = createStackNavigator(
   {
     main: {
       screen: HomeScreen
@@ -31,7 +30,7 @@ const ParentModalNavigator = StackNavigator(
   }
 );
 
-const TabsNavigator = TabNavigator(
+const TabsNavigator = createBottomTabNavigator(
   {
     feed: {
       screen: NewsContainer,
@@ -79,7 +78,7 @@ const TabsNavigator = TabNavigator(
   }
 );
 
-const SideNavigator = DrawerNavigator(
+const SideNavigator = createDrawerNavigator(
   {
     feed: {
       screen: NewsContainer,
