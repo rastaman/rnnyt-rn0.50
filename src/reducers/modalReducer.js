@@ -1,13 +1,5 @@
+import { createNavigationReducer } from 'react-navigation-redux-helpers';
 import { ParentModalNavigator } from '../TabsNavigator';
 
-const initialState = ParentModalNavigator.router.getStateForAction(
-  ParentModalNavigator.router.getActionForPathAndParams('main')
-);
-
-export default (state = initialState, action = {}) => {
-  const nextState = ParentModalNavigator.router.getStateForAction(
-    action,
-    state
-  );
-  return nextState || state;
-};
+const modalReducer = createNavigationReducer(ParentModalNavigator);
+export default modalReducer;

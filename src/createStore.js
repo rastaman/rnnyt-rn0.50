@@ -21,6 +21,11 @@ const navigationMiddleware = createReactNavigationReduxMiddleware(
   state => state.nav
 );
 
+const tabsNavigationMiddleware = createReactNavigationReduxMiddleware(
+  'tabs',
+  state => state.tabs
+);
+
 const appReducer = combineReducers({
   news: newsFeedReducer,
   searchTerm: searchTermReducer,
@@ -34,5 +39,10 @@ export default (initialState = {}) =>
   createStore(
     appReducer,
     initialState,
-    applyMiddleware(logger, promiseMiddleware, navigationMiddleware)
+    applyMiddleware(
+      logger,
+      promiseMiddleware,
+      navigationMiddleware,
+      tabsNavigationMiddleware
+    )
   );

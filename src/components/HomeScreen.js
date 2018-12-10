@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { reduxifyNavigator } from 'react-navigation-redux-helpers';
 import PropTypes from 'prop-types';
 
 import { TabsNavigator } from '../TabsNavigator';
@@ -12,12 +13,20 @@ class HomeScreen extends Component {
   };
 
   render() {
-    console.log('Tab current navigation', this.props.navigation);
+    const { navigation } = this.props;
+    const Tabs = reduxifyNavigator(TabsNavigator, 'tabs');
+    const mapStateToProps = state => {
+      console.log('Send state', state);
+      return {
+        state: state.tabs
+      };
+    };
+
+    const TabsWithNavigationState = connect(mapStateToProps)(Tabs);
+
+    console.log('Tab current navigation', navigation);
     return (
-      <TabsNavigator
-        screenProps={{ rootNavigation: this.props.navigation }}
-        navigation={this.props.navigation}
-      />
+      <TabsWithNavigationState screenProps={{ rootNavigation: navigation }} />
     );
   }
 }

@@ -16,7 +16,6 @@ const mapStateToProps = state => ({
 
 const AppWithNavigationState = connect(mapStateToProps)(App);
 
-
 // Set the status bar for iOS to light
 StatusBar.setBarStyle('light-content');
 

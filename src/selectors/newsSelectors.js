@@ -6,7 +6,10 @@ import {
 
 const newsSelector = state => state.news;
 
-const reshapeNewsSelector = createSelector([newsSelector], reshapeNewsData);
+const reshapeNewsSelector = createSelector(
+  [newsSelector],
+  reshapeNewsData
+);
 
 export const allNewsSelector = createSelector(
   [reshapeNewsSelector],

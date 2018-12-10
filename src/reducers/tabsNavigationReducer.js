@@ -1,10 +1,5 @@
+import { createNavigationReducer } from 'react-navigation-redux-helpers';
 import { TabsNavigator } from '../TabsNavigator';
 
-const initialState = TabsNavigator.router.getStateForAction(
-  TabsNavigator.router.getActionForPathAndParams('feed')
-);
-
-export default (state = initialState, action = {}) => {
-  const nextState = TabsNavigator.router.getStateForAction(action, state);
-  return nextState || state;
-};
+const tabsNavigationReducer = createNavigationReducer(TabsNavigator);
+export default tabsNavigationReducer;

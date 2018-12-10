@@ -26,7 +26,8 @@ const ParentModalNavigator = createStackNavigator(
   },
   {
     mode: 'modal',
-    headerMode: 'none'
+    headerMode: 'none',
+    initialRouteName: 'main'
   }
 );
 
@@ -74,7 +75,10 @@ const TabsNavigator = createBottomTabNavigator(
       style: { backgroundColor: globalStyles.BG_COLOR }
     },
     lazy: true,
-    headerMode: 'screen'
+    headerMode: 'screen',
+    initialRouteName: 'feed',
+    initialRouteParams: {},
+    currentNavProp: 'tabs'
   }
 );
 
