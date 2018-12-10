@@ -24,7 +24,6 @@ class HomeScreen extends Component {
 
     const TabsWithNavigationState = connect(mapStateToProps)(Tabs);
 
-    console.log('Tab current navigation', navigation);
     return (
       <TabsWithNavigationState screenProps={{ rootNavigation: navigation }} />
     );
